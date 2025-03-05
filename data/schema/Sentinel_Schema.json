@@ -1,0 +1,3927 @@
+[
+  {
+    "Database": "cybersecuritysoc",
+    "Tables": [
+      {
+        "Table": "AADManagedIdentitySignInLogs",
+        "Columns": [
+          {
+            "Name": "TenantId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "SourceSystem",
+            "Type": "System.String"
+          },
+          {
+            "Name": "TimeGenerated",
+            "Type": "System.DateTime"
+          },
+          {
+            "Name": "OperationName",
+            "Type": "System.String"
+          },
+          {
+            "Name": "OperationVersion",
+            "Type": "System.String"
+          },
+          {
+            "Name": "Category",
+            "Type": "System.String"
+          },
+          {
+            "Name": "ResultType",
+            "Type": "System.String"
+          },
+          {
+            "Name": "ResultSignature",
+            "Type": "System.String"
+          },
+          {
+            "Name": "ResultDescription",
+            "Type": "System.String"
+          },
+          {
+            "Name": "DurationMs",
+            "Type": "System.Int64"
+          },
+          {
+            "Name": "CorrelationId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "ResourceGroup",
+            "Type": "System.String"
+          },
+          {
+            "Name": "Identity",
+            "Type": "System.String"
+          },
+          {
+            "Name": "Level",
+            "Type": "System.String"
+          },
+          {
+            "Name": "Location",
+            "Type": "System.String"
+          },
+          {
+            "Name": "AppId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "AuthenticationContextClassReferences",
+            "Type": "System.String"
+          },
+          {
+            "Name": "AuthenticationProcessingDetails",
+            "Type": "System.String"
+          },
+          {
+            "Name": "ConditionalAccessPolicies",
+            "Type": "System.String"
+          },
+          {
+            "Name": "ConditionalAccessPoliciesV2",
+            "Type": "System.Object"
+          },
+          {
+            "Name": "ConditionalAccessStatus",
+            "Type": "System.String"
+          },
+          {
+            "Name": "FederatedCredentialId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "Id",
+            "Type": "System.String"
+          },
+          {
+            "Name": "IPAddress",
+            "Type": "System.String"
+          },
+          {
+            "Name": "LocationDetails",
+            "Type": "System.String"
+          },
+          {
+            "Name": "ResourceDisplayName",
+            "Type": "System.String"
+          },
+          {
+            "Name": "ResourceIdentity",
+            "Type": "System.String"
+          },
+          {
+            "Name": "ResourceServicePrincipalId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "ServicePrincipalCredentialKeyId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "ServicePrincipalCredentialThumbprint",
+            "Type": "System.String"
+          },
+          {
+            "Name": "ServicePrincipalId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "ServicePrincipalName",
+            "Type": "System.String"
+          },
+          {
+            "Name": "UniqueTokenIdentifier",
+            "Type": "System.String"
+          },
+          {
+            "Name": "Type",
+            "Type": "System.String"
+          },
+          {
+            "Name": "_IsBillable",
+            "Type": "System.String"
+          },
+          {
+            "Name": "_BilledSize",
+            "Type": "System.Double"
+          },
+          {
+            "Name": "_TimeReceived",
+            "Type": "System.DateTime"
+          },
+          {
+            "Name": "_ItemId",
+            "Type": "System.String"
+          }
+        ]
+      },
+      {
+        "Table": "AADNonInteractiveUserSignInLogs",
+        "Columns": [
+          {
+            "Name": "TenantId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "SourceSystem",
+            "Type": "System.String"
+          },
+          {
+            "Name": "TimeGenerated",
+            "Type": "System.DateTime"
+          },
+          {
+            "Name": "OperationName",
+            "Type": "System.String"
+          },
+          {
+            "Name": "OperationVersion",
+            "Type": "System.String"
+          },
+          {
+            "Name": "Category",
+            "Type": "System.String"
+          },
+          {
+            "Name": "ResultType",
+            "Type": "System.String"
+          },
+          {
+            "Name": "ResultSignature",
+            "Type": "System.String"
+          },
+          {
+            "Name": "ResultDescription",
+            "Type": "System.String"
+          },
+          {
+            "Name": "DurationMs",
+            "Type": "System.Int64"
+          },
+          {
+            "Name": "CorrelationId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "ResourceGroup",
+            "Type": "System.String"
+          },
+          {
+            "Name": "Identity",
+            "Type": "System.String"
+          },
+          {
+            "Name": "Level",
+            "Type": "System.String"
+          },
+          {
+            "Name": "Location",
+            "Type": "System.String"
+          },
+          {
+            "Name": "AlternateSignInName",
+            "Type": "System.String"
+          },
+          {
+            "Name": "AppDisplayName",
+            "Type": "System.String"
+          },
+          {
+            "Name": "AppId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "AuthenticationContextClassReferences",
+            "Type": "System.String"
+          },
+          {
+            "Name": "AuthenticationDetails",
+            "Type": "System.String"
+          },
+          {
+            "Name": "AppliedEventListeners",
+            "Type": "System.Object"
+          },
+          {
+            "Name": "AuthenticationMethodsUsed",
+            "Type": "System.String"
+          },
+          {
+            "Name": "AuthenticationProcessingDetails",
+            "Type": "System.String"
+          },
+          {
+            "Name": "AuthenticationRequirement",
+            "Type": "System.String"
+          },
+          {
+            "Name": "AuthenticationRequirementPolicies",
+            "Type": "System.String"
+          },
+          {
+            "Name": "AutonomousSystemNumber",
+            "Type": "System.String"
+          },
+          {
+            "Name": "ClientAppUsed",
+            "Type": "System.String"
+          },
+          {
+            "Name": "ConditionalAccessPolicies",
+            "Type": "System.String"
+          },
+          {
+            "Name": "ConditionalAccessPoliciesV2",
+            "Type": "System.Object"
+          },
+          {
+            "Name": "ConditionalAccessStatus",
+            "Type": "System.String"
+          },
+          {
+            "Name": "CreatedDateTime",
+            "Type": "System.DateTime"
+          },
+          {
+            "Name": "DeviceDetail",
+            "Type": "System.String"
+          },
+          {
+            "Name": "HomeTenantId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "IsInteractive",
+            "Type": "System.SByte"
+          },
+          {
+            "Name": "Id",
+            "Type": "System.String"
+          },
+          {
+            "Name": "IPAddress",
+            "Type": "System.String"
+          },
+          {
+            "Name": "IsRisky",
+            "Type": "System.SByte"
+          },
+          {
+            "Name": "LocationDetails",
+            "Type": "System.String"
+          },
+          {
+            "Name": "MfaDetail",
+            "Type": "System.String"
+          },
+          {
+            "Name": "NetworkLocationDetails",
+            "Type": "System.String"
+          },
+          {
+            "Name": "OriginalRequestId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "ProcessingTimeInMs",
+            "Type": "System.String"
+          },
+          {
+            "Name": "ResourceDisplayName",
+            "Type": "System.String"
+          },
+          {
+            "Name": "ResourceIdentity",
+            "Type": "System.String"
+          },
+          {
+            "Name": "ResourceServicePrincipalId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "ResourceTenantId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "RiskDetail",
+            "Type": "System.String"
+          },
+          {
+            "Name": "RiskEventTypes",
+            "Type": "System.String"
+          },
+          {
+            "Name": "RiskEventTypes_V2",
+            "Type": "System.String"
+          },
+          {
+            "Name": "RiskLevelAggregated",
+            "Type": "System.String"
+          },
+          {
+            "Name": "RiskLevelDuringSignIn",
+            "Type": "System.String"
+          },
+          {
+            "Name": "RiskState",
+            "Type": "System.String"
+          },
+          {
+            "Name": "ServicePrincipalId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "SessionLifetimePolicies",
+            "Type": "System.String"
+          },
+          {
+            "Name": "SignInEventTypes",
+            "Type": "System.String"
+          },
+          {
+            "Name": "Status",
+            "Type": "System.String"
+          },
+          {
+            "Name": "TokenIssuerName",
+            "Type": "System.String"
+          },
+          {
+            "Name": "TokenIssuerType",
+            "Type": "System.String"
+          },
+          {
+            "Name": "UniqueTokenIdentifier",
+            "Type": "System.String"
+          },
+          {
+            "Name": "UserAgent",
+            "Type": "System.String"
+          },
+          {
+            "Name": "UserDisplayName",
+            "Type": "System.String"
+          },
+          {
+            "Name": "UserId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "UserPrincipalName",
+            "Type": "System.String"
+          },
+          {
+            "Name": "Type",
+            "Type": "System.String"
+          },
+          {
+            "Name": "_IsBillable",
+            "Type": "System.String"
+          },
+          {
+            "Name": "_BilledSize",
+            "Type": "System.Double"
+          },
+          {
+            "Name": "_TimeReceived",
+            "Type": "System.DateTime"
+          },
+          {
+            "Name": "_ItemId",
+            "Type": "System.String"
+          }
+        ]
+      },
+      {
+        "Table": "AADRiskyUsers",
+        "Columns": [
+          {
+            "Name": "TenantId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "Id",
+            "Type": "System.String"
+          },
+          {
+            "Name": "IsDeleted",
+            "Type": "System.SByte"
+          },
+          {
+            "Name": "IsProcessing",
+            "Type": "System.SByte"
+          },
+          {
+            "Name": "RiskDetail",
+            "Type": "System.String"
+          },
+          {
+            "Name": "RiskLastUpdatedDateTime",
+            "Type": "System.DateTime"
+          },
+          {
+            "Name": "RiskLevel",
+            "Type": "System.String"
+          },
+          {
+            "Name": "RiskState",
+            "Type": "System.String"
+          },
+          {
+            "Name": "UserDisplayName",
+            "Type": "System.String"
+          },
+          {
+            "Name": "UserPrincipalName",
+            "Type": "System.String"
+          },
+          {
+            "Name": "TimeGenerated",
+            "Type": "System.DateTime"
+          },
+          {
+            "Name": "OperationName",
+            "Type": "System.String"
+          },
+          {
+            "Name": "CorrelationId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "SourceSystem",
+            "Type": "System.String"
+          },
+          {
+            "Name": "Type",
+            "Type": "System.String"
+          },
+          {
+            "Name": "_IsBillable",
+            "Type": "System.String"
+          },
+          {
+            "Name": "_BilledSize",
+            "Type": "System.Double"
+          },
+          {
+            "Name": "_TimeReceived",
+            "Type": "System.DateTime"
+          },
+          {
+            "Name": "_ItemId",
+            "Type": "System.String"
+          }
+        ]
+      },
+      {
+        "Table": "AADServicePrincipalSignInLogs",
+        "Columns": [
+          {
+            "Name": "TenantId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "SourceSystem",
+            "Type": "System.String"
+          },
+          {
+            "Name": "TimeGenerated",
+            "Type": "System.DateTime"
+          },
+          {
+            "Name": "OperationName",
+            "Type": "System.String"
+          },
+          {
+            "Name": "OperationVersion",
+            "Type": "System.String"
+          },
+          {
+            "Name": "Category",
+            "Type": "System.String"
+          },
+          {
+            "Name": "ResultType",
+            "Type": "System.String"
+          },
+          {
+            "Name": "ResultSignature",
+            "Type": "System.String"
+          },
+          {
+            "Name": "ResultDescription",
+            "Type": "System.String"
+          },
+          {
+            "Name": "DurationMs",
+            "Type": "System.Int64"
+          },
+          {
+            "Name": "CorrelationId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "ResourceGroup",
+            "Type": "System.String"
+          },
+          {
+            "Name": "Identity",
+            "Type": "System.String"
+          },
+          {
+            "Name": "Level",
+            "Type": "System.String"
+          },
+          {
+            "Name": "Location",
+            "Type": "System.String"
+          },
+          {
+            "Name": "AppId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "AuthenticationContextClassReferences",
+            "Type": "System.String"
+          },
+          {
+            "Name": "AuthenticationProcessingDetails",
+            "Type": "System.String"
+          },
+          {
+            "Name": "ConditionalAccessPolicies",
+            "Type": "System.String"
+          },
+          {
+            "Name": "ConditionalAccessPoliciesV2",
+            "Type": "System.Object"
+          },
+          {
+            "Name": "ConditionalAccessStatus",
+            "Type": "System.String"
+          },
+          {
+            "Name": "FederatedCredentialId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "Id",
+            "Type": "System.String"
+          },
+          {
+            "Name": "IPAddress",
+            "Type": "System.String"
+          },
+          {
+            "Name": "LocationDetails",
+            "Type": "System.String"
+          },
+          {
+            "Name": "ResourceDisplayName",
+            "Type": "System.String"
+          },
+          {
+            "Name": "ResourceIdentity",
+            "Type": "System.String"
+          },
+          {
+            "Name": "ResourceServicePrincipalId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "ServicePrincipalCredentialKeyId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "ServicePrincipalCredentialThumbprint",
+            "Type": "System.String"
+          },
+          {
+            "Name": "ServicePrincipalId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "ServicePrincipalName",
+            "Type": "System.String"
+          },
+          {
+            "Name": "UniqueTokenIdentifier",
+            "Type": "System.String"
+          },
+          {
+            "Name": "Type",
+            "Type": "System.String"
+          },
+          {
+            "Name": "_IsBillable",
+            "Type": "System.String"
+          },
+          {
+            "Name": "_BilledSize",
+            "Type": "System.Double"
+          },
+          {
+            "Name": "_TimeReceived",
+            "Type": "System.DateTime"
+          },
+          {
+            "Name": "_ItemId",
+            "Type": "System.String"
+          }
+        ]
+      },
+      {
+        "Table": "AADUserRiskEvents",
+        "Columns": [
+          {
+            "Name": "TenantId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "Activity",
+            "Type": "System.String"
+          },
+          {
+            "Name": "ActivityDateTime",
+            "Type": "System.DateTime"
+          },
+          {
+            "Name": "AdditionalInfo",
+            "Type": "System.Object"
+          },
+          {
+            "Name": "CorrelationId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "DetectedDateTime",
+            "Type": "System.DateTime"
+          },
+          {
+            "Name": "DetectionTimingType",
+            "Type": "System.String"
+          },
+          {
+            "Name": "Id",
+            "Type": "System.String"
+          },
+          {
+            "Name": "IpAddress",
+            "Type": "System.String"
+          },
+          {
+            "Name": "LastUpdatedDateTime",
+            "Type": "System.DateTime"
+          },
+          {
+            "Name": "Location",
+            "Type": "System.Object"
+          },
+          {
+            "Name": "RequestId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "RiskDetail",
+            "Type": "System.String"
+          },
+          {
+            "Name": "RiskEventType",
+            "Type": "System.String"
+          },
+          {
+            "Name": "RiskLevel",
+            "Type": "System.String"
+          },
+          {
+            "Name": "RiskState",
+            "Type": "System.String"
+          },
+          {
+            "Name": "Source",
+            "Type": "System.String"
+          },
+          {
+            "Name": "TokenIssuerType",
+            "Type": "System.String"
+          },
+          {
+            "Name": "UserDisplayName",
+            "Type": "System.String"
+          },
+          {
+            "Name": "UserId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "UserPrincipalName",
+            "Type": "System.String"
+          },
+          {
+            "Name": "TimeGenerated",
+            "Type": "System.DateTime"
+          },
+          {
+            "Name": "OperationName",
+            "Type": "System.String"
+          },
+          {
+            "Name": "SourceSystem",
+            "Type": "System.String"
+          },
+          {
+            "Name": "Type",
+            "Type": "System.String"
+          },
+          {
+            "Name": "_IsBillable",
+            "Type": "System.String"
+          },
+          {
+            "Name": "_BilledSize",
+            "Type": "System.Double"
+          },
+          {
+            "Name": "_TimeReceived",
+            "Type": "System.DateTime"
+          },
+          {
+            "Name": "_ItemId",
+            "Type": "System.String"
+          }
+        ]
+      },
+      {
+        "Table": "AWSCloudTrail",
+        "Columns": [
+          {
+            "Name": "TimeGenerated",
+            "Type": "System.DateTime"
+          },
+          {
+            "Name": "AwsEventId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "EventVersion",
+            "Type": "System.String"
+          },
+          {
+            "Name": "EventSource",
+            "Type": "System.String"
+          },
+          {
+            "Name": "EventTypeName",
+            "Type": "System.String"
+          },
+          {
+            "Name": "EventName",
+            "Type": "System.String"
+          },
+          {
+            "Name": "UserIdentityType",
+            "Type": "System.String"
+          },
+          {
+            "Name": "UserIdentityPrincipalid",
+            "Type": "System.String"
+          },
+          {
+            "Name": "UserIdentityArn",
+            "Type": "System.String"
+          },
+          {
+            "Name": "UserIdentityAccountId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "UserIdentityInvokedBy",
+            "Type": "System.String"
+          },
+          {
+            "Name": "UserIdentityAccessKeyId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "UserIdentityUserName",
+            "Type": "System.String"
+          },
+          {
+            "Name": "SessionMfaAuthenticated",
+            "Type": "System.SByte"
+          },
+          {
+            "Name": "SessionCreationDate",
+            "Type": "System.DateTime"
+          },
+          {
+            "Name": "SessionIssuerType",
+            "Type": "System.String"
+          },
+          {
+            "Name": "SessionIssuerPrincipalId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "SessionIssuerArn",
+            "Type": "System.String"
+          },
+          {
+            "Name": "SessionIssuerAccountId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "SessionIssuerUserName",
+            "Type": "System.String"
+          },
+          {
+            "Name": "AWSRegion",
+            "Type": "System.String"
+          },
+          {
+            "Name": "SourceIpAddress",
+            "Type": "System.String"
+          },
+          {
+            "Name": "UserAgent",
+            "Type": "System.String"
+          },
+          {
+            "Name": "ErrorCode",
+            "Type": "System.String"
+          },
+          {
+            "Name": "ErrorMessage",
+            "Type": "System.String"
+          },
+          {
+            "Name": "RequestParameters",
+            "Type": "System.String"
+          },
+          {
+            "Name": "ResponseElements",
+            "Type": "System.String"
+          },
+          {
+            "Name": "AdditionalEventData",
+            "Type": "System.String"
+          },
+          {
+            "Name": "AwsRequestId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "AwsRequestId_",
+            "Type": "System.String"
+          },
+          {
+            "Name": "Resources",
+            "Type": "System.String"
+          },
+          {
+            "Name": "APIVersion",
+            "Type": "System.String"
+          },
+          {
+            "Name": "ReadOnly",
+            "Type": "System.SByte"
+          },
+          {
+            "Name": "RecipientAccountId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "ServiceEventDetails",
+            "Type": "System.String"
+          },
+          {
+            "Name": "SharedEventId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "VpcEndpointId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "ManagementEvent",
+            "Type": "System.SByte"
+          },
+          {
+            "Name": "TenantId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "SourceSystem",
+            "Type": "System.String"
+          },
+          {
+            "Name": "OperationName",
+            "Type": "System.String"
+          },
+          {
+            "Name": "Category",
+            "Type": "System.String"
+          },
+          {
+            "Name": "EC2RoleDelivery",
+            "Type": "System.String"
+          },
+          {
+            "Name": "TlsVersion",
+            "Type": "System.String"
+          },
+          {
+            "Name": "CipherSuite",
+            "Type": "System.String"
+          },
+          {
+            "Name": "ClientProvidedHostHeader",
+            "Type": "System.String"
+          },
+          {
+            "Name": "Type",
+            "Type": "System.String"
+          },
+          {
+            "Name": "_IsBillable",
+            "Type": "System.String"
+          },
+          {
+            "Name": "_BilledSize",
+            "Type": "System.Double"
+          },
+          {
+            "Name": "_TimeReceived",
+            "Type": "System.DateTime"
+          },
+          {
+            "Name": "_ItemId",
+            "Type": "System.String"
+          }
+        ]
+      },
+      {
+        "Table": "AWSGuardDuty",
+        "Columns": [
+          {
+            "Name": "TenantId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "TimeGenerated",
+            "Type": "System.DateTime"
+          },
+          {
+            "Name": "SchemaVersion",
+            "Type": "System.String"
+          },
+          {
+            "Name": "AccountId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "Region",
+            "Type": "System.String"
+          },
+          {
+            "Name": "Partition",
+            "Type": "System.String"
+          },
+          {
+            "Name": "Id",
+            "Type": "System.String"
+          },
+          {
+            "Name": "Arn",
+            "Type": "System.String"
+          },
+          {
+            "Name": "ActivityType",
+            "Type": "System.String"
+          },
+          {
+            "Name": "ResourceDetails",
+            "Type": "System.Object"
+          },
+          {
+            "Name": "ServiceDetails",
+            "Type": "System.Object"
+          },
+          {
+            "Name": "Severity",
+            "Type": "System.Int32"
+          },
+          {
+            "Name": "TimeCreated",
+            "Type": "System.DateTime"
+          },
+          {
+            "Name": "Title",
+            "Type": "System.String"
+          },
+          {
+            "Name": "Description",
+            "Type": "System.String"
+          },
+          {
+            "Name": "SourceSystem",
+            "Type": "System.String"
+          },
+          {
+            "Name": "Type",
+            "Type": "System.String"
+          },
+          {
+            "Name": "_IsBillable",
+            "Type": "System.String"
+          },
+          {
+            "Name": "_BilledSize",
+            "Type": "System.Double"
+          },
+          {
+            "Name": "_TimeReceived",
+            "Type": "System.DateTime"
+          },
+          {
+            "Name": "_ItemId",
+            "Type": "System.String"
+          }
+        ]
+      },
+      {
+        "Table": "Anomalies",
+        "Columns": [
+          {
+            "Name": "TenantId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "Id",
+            "Type": "System.String"
+          },
+          {
+            "Name": "WorkspaceId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "VendorName",
+            "Type": "System.String"
+          },
+          {
+            "Name": "TimeGenerated",
+            "Type": "System.DateTime"
+          },
+          {
+            "Name": "AnomalyTemplateId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "AnomalyTemplateName",
+            "Type": "System.String"
+          },
+          {
+            "Name": "AnomalyTemplateVersion",
+            "Type": "System.String"
+          },
+          {
+            "Name": "RuleId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "RuleStatus",
+            "Type": "System.String"
+          },
+          {
+            "Name": "RuleName",
+            "Type": "System.String"
+          },
+          {
+            "Name": "RuleConfigVersion",
+            "Type": "System.String"
+          },
+          {
+            "Name": "Score",
+            "Type": "System.Double"
+          },
+          {
+            "Name": "Description",
+            "Type": "System.String"
+          },
+          {
+            "Name": "StartTime",
+            "Type": "System.DateTime"
+          },
+          {
+            "Name": "EndTime",
+            "Type": "System.DateTime"
+          },
+          {
+            "Name": "ExtendedLinks",
+            "Type": "System.Object"
+          },
+          {
+            "Name": "Tactics",
+            "Type": "System.String"
+          },
+          {
+            "Name": "Techniques",
+            "Type": "System.String"
+          },
+          {
+            "Name": "UserName",
+            "Type": "System.String"
+          },
+          {
+            "Name": "UserPrincipalName",
+            "Type": "System.String"
+          },
+          {
+            "Name": "SourceIpAddress",
+            "Type": "System.String"
+          },
+          {
+            "Name": "SourceLocation",
+            "Type": "System.Object"
+          },
+          {
+            "Name": "SourceDevice",
+            "Type": "System.String"
+          },
+          {
+            "Name": "DestinationIpAddress",
+            "Type": "System.String"
+          },
+          {
+            "Name": "DestinationLocation",
+            "Type": "System.Object"
+          },
+          {
+            "Name": "DestinationDevice",
+            "Type": "System.String"
+          },
+          {
+            "Name": "ActivityInsights",
+            "Type": "System.Object"
+          },
+          {
+            "Name": "DeviceInsights",
+            "Type": "System.Object"
+          },
+          {
+            "Name": "UserInsights",
+            "Type": "System.Object"
+          },
+          {
+            "Name": "AnomalyReasons",
+            "Type": "System.Object"
+          },
+          {
+            "Name": "Entities",
+            "Type": "System.Object"
+          },
+          {
+            "Name": "ExtendedProperties",
+            "Type": "System.Object"
+          },
+          {
+            "Name": "AnomalyDetails",
+            "Type": "System.Object"
+          },
+          {
+            "Name": "SourceSystem",
+            "Type": "System.String"
+          },
+          {
+            "Name": "Type",
+            "Type": "System.String"
+          },
+          {
+            "Name": "_IsBillable",
+            "Type": "System.String"
+          },
+          {
+            "Name": "_BilledSize",
+            "Type": "System.Double"
+          },
+          {
+            "Name": "_TimeReceived",
+            "Type": "System.DateTime"
+          },
+          {
+            "Name": "_ItemId",
+            "Type": "System.String"
+          }
+        ]
+      },
+      {
+        "Table": "BehaviorAnalytics",
+        "Columns": [
+          {
+            "Name": "TenantId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "SourceRecordId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "TimeGenerated",
+            "Type": "System.DateTime"
+          },
+          {
+            "Name": "TimeProcessed",
+            "Type": "System.DateTime"
+          },
+          {
+            "Name": "ActivityType",
+            "Type": "System.String"
+          },
+          {
+            "Name": "ActionType",
+            "Type": "System.String"
+          },
+          {
+            "Name": "UserName",
+            "Type": "System.String"
+          },
+          {
+            "Name": "UserPrincipalName",
+            "Type": "System.String"
+          },
+          {
+            "Name": "EventSource",
+            "Type": "System.String"
+          },
+          {
+            "Name": "SourceIPAddress",
+            "Type": "System.String"
+          },
+          {
+            "Name": "SourceIPLocation",
+            "Type": "System.String"
+          },
+          {
+            "Name": "SourceDevice",
+            "Type": "System.String"
+          },
+          {
+            "Name": "DestinationIPAddress",
+            "Type": "System.String"
+          },
+          {
+            "Name": "DestinationIPLocation",
+            "Type": "System.String"
+          },
+          {
+            "Name": "DestinationDevice",
+            "Type": "System.String"
+          },
+          {
+            "Name": "EventVendor",
+            "Type": "System.String"
+          },
+          {
+            "Name": "EventProductVersion",
+            "Type": "System.String"
+          },
+          {
+            "Name": "ActorName",
+            "Type": "System.String"
+          },
+          {
+            "Name": "ActorPrincipalName",
+            "Type": "System.String"
+          },
+          {
+            "Name": "TargetName",
+            "Type": "System.String"
+          },
+          {
+            "Name": "TargetPrincipalName",
+            "Type": "System.String"
+          },
+          {
+            "Name": "Device",
+            "Type": "System.String"
+          },
+          {
+            "Name": "UsersInsights",
+            "Type": "System.Object"
+          },
+          {
+            "Name": "DevicesInsights",
+            "Type": "System.Object"
+          },
+          {
+            "Name": "ActivityInsights",
+            "Type": "System.Object"
+          },
+          {
+            "Name": "SourceSystem",
+            "Type": "System.String"
+          },
+          {
+            "Name": "NativeTableName",
+            "Type": "System.String"
+          },
+          {
+            "Name": "InvestigationPriority",
+            "Type": "System.Int32"
+          },
+          {
+            "Name": "Type",
+            "Type": "System.String"
+          },
+          {
+            "Name": "_IsBillable",
+            "Type": "System.String"
+          },
+          {
+            "Name": "_BilledSize",
+            "Type": "System.Double"
+          },
+          {
+            "Name": "_TimeReceived",
+            "Type": "System.DateTime"
+          },
+          {
+            "Name": "_ItemId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "_ResourceId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "_SubscriptionId",
+            "Type": "System.String"
+          }
+        ]
+      },
+      {
+        "Table": "Event",
+        "Columns": [
+          {
+            "Name": "TenantId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "SourceSystem",
+            "Type": "System.String"
+          },
+          {
+            "Name": "TimeGenerated",
+            "Type": "System.DateTime"
+          },
+          {
+            "Name": "Source",
+            "Type": "System.String"
+          },
+          {
+            "Name": "EventLog",
+            "Type": "System.String"
+          },
+          {
+            "Name": "Computer",
+            "Type": "System.String"
+          },
+          {
+            "Name": "EventLevel",
+            "Type": "System.Int32"
+          },
+          {
+            "Name": "EventLevelName",
+            "Type": "System.String"
+          },
+          {
+            "Name": "ParameterXml",
+            "Type": "System.String"
+          },
+          {
+            "Name": "EventData",
+            "Type": "System.String"
+          },
+          {
+            "Name": "EventID",
+            "Type": "System.Int32"
+          },
+          {
+            "Name": "RenderedDescription",
+            "Type": "System.String"
+          },
+          {
+            "Name": "AzureDeploymentID",
+            "Type": "System.String"
+          },
+          {
+            "Name": "Role",
+            "Type": "System.String"
+          },
+          {
+            "Name": "EventCategory",
+            "Type": "System.Int32"
+          },
+          {
+            "Name": "UserName",
+            "Type": "System.String"
+          },
+          {
+            "Name": "Message",
+            "Type": "System.String"
+          },
+          {
+            "Name": "MG",
+            "Type": "System.String"
+          },
+          {
+            "Name": "ManagementGroupName",
+            "Type": "System.String"
+          },
+          {
+            "Name": "Type",
+            "Type": "System.String"
+          },
+          {
+            "Name": "_IsBillable",
+            "Type": "System.String"
+          },
+          {
+            "Name": "_BilledSize",
+            "Type": "System.Double"
+          },
+          {
+            "Name": "_TimeReceived",
+            "Type": "System.DateTime"
+          },
+          {
+            "Name": "_ItemId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "_ResourceId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "_SubscriptionId",
+            "Type": "System.String"
+          }
+        ]
+      },
+      {
+        "Table": "Heartbeat",
+        "Columns": [
+          {
+            "Name": "TenantId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "SourceSystem",
+            "Type": "System.String"
+          },
+          {
+            "Name": "TimeGenerated",
+            "Type": "System.DateTime"
+          },
+          {
+            "Name": "MG",
+            "Type": "System.String"
+          },
+          {
+            "Name": "ManagementGroupName",
+            "Type": "System.String"
+          },
+          {
+            "Name": "SourceComputerId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "ComputerIP",
+            "Type": "System.String"
+          },
+          {
+            "Name": "Computer",
+            "Type": "System.String"
+          },
+          {
+            "Name": "Category",
+            "Type": "System.String"
+          },
+          {
+            "Name": "OSType",
+            "Type": "System.String"
+          },
+          {
+            "Name": "OSName",
+            "Type": "System.String"
+          },
+          {
+            "Name": "OSMajorVersion",
+            "Type": "System.String"
+          },
+          {
+            "Name": "OSMinorVersion",
+            "Type": "System.String"
+          },
+          {
+            "Name": "Version",
+            "Type": "System.String"
+          },
+          {
+            "Name": "SCAgentChannel",
+            "Type": "System.String"
+          },
+          {
+            "Name": "IsGatewayInstalled",
+            "Type": "System.SByte"
+          },
+          {
+            "Name": "RemoteIPLongitude",
+            "Type": "System.Double"
+          },
+          {
+            "Name": "RemoteIPLatitude",
+            "Type": "System.Double"
+          },
+          {
+            "Name": "RemoteIPCountry",
+            "Type": "System.String"
+          },
+          {
+            "Name": "SubscriptionId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "ResourceGroup",
+            "Type": "System.String"
+          },
+          {
+            "Name": "ResourceProvider",
+            "Type": "System.String"
+          },
+          {
+            "Name": "Resource",
+            "Type": "System.String"
+          },
+          {
+            "Name": "ResourceId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "ResourceType",
+            "Type": "System.String"
+          },
+          {
+            "Name": "ComputerEnvironment",
+            "Type": "System.String"
+          },
+          {
+            "Name": "Solutions",
+            "Type": "System.String"
+          },
+          {
+            "Name": "VMUUID",
+            "Type": "System.String"
+          },
+          {
+            "Name": "ComputerPrivateIPs",
+            "Type": "System.Object"
+          },
+          {
+            "Name": "Type",
+            "Type": "System.String"
+          },
+          {
+            "Name": "_IsBillable",
+            "Type": "System.String"
+          },
+          {
+            "Name": "_BilledSize",
+            "Type": "System.Double"
+          },
+          {
+            "Name": "_TimeReceived",
+            "Type": "System.DateTime"
+          },
+          {
+            "Name": "_ItemId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "_ResourceId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "_SubscriptionId",
+            "Type": "System.String"
+          }
+        ]
+      },
+      {
+        "Table": "IdentityInfo",
+        "Columns": [
+          {
+            "Name": "TenantId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "TimeGenerated",
+            "Type": "System.DateTime"
+          },
+          {
+            "Name": "AccountName",
+            "Type": "System.String"
+          },
+          {
+            "Name": "AccountDomain",
+            "Type": "System.String"
+          },
+          {
+            "Name": "AccountUPN",
+            "Type": "System.String"
+          },
+          {
+            "Name": "AccountSID",
+            "Type": "System.String"
+          },
+          {
+            "Name": "AccountObjectId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "AccountTenantId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "AccountDisplayName",
+            "Type": "System.String"
+          },
+          {
+            "Name": "GivenName",
+            "Type": "System.String"
+          },
+          {
+            "Name": "Surname",
+            "Type": "System.String"
+          },
+          {
+            "Name": "OnPremisesAccountObjectId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "OnPremisesExtensionAttributes",
+            "Type": "System.String"
+          },
+          {
+            "Name": "OnPremisesDistinguishedName",
+            "Type": "System.String"
+          },
+          {
+            "Name": "Tags",
+            "Type": "System.String"
+          },
+          {
+            "Name": "AccountCreationTime",
+            "Type": "System.DateTime"
+          },
+          {
+            "Name": "InvestigationPriority",
+            "Type": "System.Int32"
+          },
+          {
+            "Name": "InvestigationPriorityPercentile",
+            "Type": "System.Int32"
+          },
+          {
+            "Name": "RiskLevel",
+            "Type": "System.String"
+          },
+          {
+            "Name": "RiskLevelDetails",
+            "Type": "System.String"
+          },
+          {
+            "Name": "RiskState",
+            "Type": "System.String"
+          },
+          {
+            "Name": "BlastRadius",
+            "Type": "System.String"
+          },
+          {
+            "Name": "GroupMembership",
+            "Type": "System.Object"
+          },
+          {
+            "Name": "AssignedRoles",
+            "Type": "System.Object"
+          },
+          {
+            "Name": "Department",
+            "Type": "System.String"
+          },
+          {
+            "Name": "EmployeeId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "JobTitle",
+            "Type": "System.String"
+          },
+          {
+            "Name": "RelatedAccounts",
+            "Type": "System.Object"
+          },
+          {
+            "Name": "MailAddress",
+            "Type": "System.String"
+          },
+          {
+            "Name": "AdditionalMailAddresses",
+            "Type": "System.Object"
+          },
+          {
+            "Name": "Manager",
+            "Type": "System.String"
+          },
+          {
+            "Name": "StreetAddress",
+            "Type": "System.String"
+          },
+          {
+            "Name": "City",
+            "Type": "System.String"
+          },
+          {
+            "Name": "CompanyName",
+            "Type": "System.String"
+          },
+          {
+            "Name": "Country",
+            "Type": "System.String"
+          },
+          {
+            "Name": "State",
+            "Type": "System.String"
+          },
+          {
+            "Name": "Phone",
+            "Type": "System.String"
+          },
+          {
+            "Name": "IsAccountEnabled",
+            "Type": "System.SByte"
+          },
+          {
+            "Name": "IsServiceAccount",
+            "Type": "System.SByte"
+          },
+          {
+            "Name": "DeletedDateTime",
+            "Type": "System.DateTime"
+          },
+          {
+            "Name": "LastSeenDate",
+            "Type": "System.DateTime"
+          },
+          {
+            "Name": "UACFlags",
+            "Type": "System.String"
+          },
+          {
+            "Name": "UserState",
+            "Type": "System.String"
+          },
+          {
+            "Name": "UserStateChangedOn",
+            "Type": "System.DateTime"
+          },
+          {
+            "Name": "UserType",
+            "Type": "System.String"
+          },
+          {
+            "Name": "ExtensionProperty",
+            "Type": "System.Object"
+          },
+          {
+            "Name": "AccountCloudSID",
+            "Type": "System.String"
+          },
+          {
+            "Name": "IsMFARegistered",
+            "Type": "System.SByte"
+          },
+          {
+            "Name": "Applications",
+            "Type": "System.String"
+          },
+          {
+            "Name": "ServicePrincipals",
+            "Type": "System.Object"
+          },
+          {
+            "Name": "SourceSystem",
+            "Type": "System.String"
+          },
+          {
+            "Name": "UserAccountControl",
+            "Type": "System.Object"
+          },
+          {
+            "Name": "ChangeSource",
+            "Type": "System.String"
+          },
+          {
+            "Name": "EntityRiskScore",
+            "Type": "System.Object"
+          },
+          {
+            "Name": "Type",
+            "Type": "System.String"
+          },
+          {
+            "Name": "_IsBillable",
+            "Type": "System.String"
+          },
+          {
+            "Name": "_BilledSize",
+            "Type": "System.Double"
+          },
+          {
+            "Name": "_TimeReceived",
+            "Type": "System.DateTime"
+          },
+          {
+            "Name": "_ItemId",
+            "Type": "System.String"
+          }
+        ]
+      },
+      {
+        "Table": "SecurityIncident",
+        "Columns": [
+          {
+            "Name": "TenantId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "TimeGenerated",
+            "Type": "System.DateTime"
+          },
+          {
+            "Name": "IncidentName",
+            "Type": "System.String"
+          },
+          {
+            "Name": "Title",
+            "Type": "System.String"
+          },
+          {
+            "Name": "Description",
+            "Type": "System.String"
+          },
+          {
+            "Name": "Severity",
+            "Type": "System.String"
+          },
+          {
+            "Name": "Status",
+            "Type": "System.String"
+          },
+          {
+            "Name": "Classification",
+            "Type": "System.String"
+          },
+          {
+            "Name": "ClassificationComment",
+            "Type": "System.String"
+          },
+          {
+            "Name": "ClassificationReason",
+            "Type": "System.String"
+          },
+          {
+            "Name": "Owner",
+            "Type": "System.Object"
+          },
+          {
+            "Name": "ProviderName",
+            "Type": "System.String"
+          },
+          {
+            "Name": "ProviderIncidentId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "FirstActivityTime",
+            "Type": "System.DateTime"
+          },
+          {
+            "Name": "LastActivityTime",
+            "Type": "System.DateTime"
+          },
+          {
+            "Name": "FirstModifiedTime",
+            "Type": "System.DateTime"
+          },
+          {
+            "Name": "LastModifiedTime",
+            "Type": "System.DateTime"
+          },
+          {
+            "Name": "CreatedTime",
+            "Type": "System.DateTime"
+          },
+          {
+            "Name": "ClosedTime",
+            "Type": "System.DateTime"
+          },
+          {
+            "Name": "IncidentNumber",
+            "Type": "System.Int32"
+          },
+          {
+            "Name": "RelatedAnalyticRuleIds",
+            "Type": "System.Object"
+          },
+          {
+            "Name": "AlertIds",
+            "Type": "System.Object"
+          },
+          {
+            "Name": "BookmarkIds",
+            "Type": "System.Object"
+          },
+          {
+            "Name": "Comments",
+            "Type": "System.Object"
+          },
+          {
+            "Name": "Tasks",
+            "Type": "System.Object"
+          },
+          {
+            "Name": "Labels",
+            "Type": "System.Object"
+          },
+          {
+            "Name": "IncidentUrl",
+            "Type": "System.String"
+          },
+          {
+            "Name": "AdditionalData",
+            "Type": "System.Object"
+          },
+          {
+            "Name": "ModifiedBy",
+            "Type": "System.String"
+          },
+          {
+            "Name": "SourceSystem",
+            "Type": "System.String"
+          },
+          {
+            "Name": "Type",
+            "Type": "System.String"
+          },
+          {
+            "Name": "_IsBillable",
+            "Type": "System.String"
+          },
+          {
+            "Name": "_BilledSize",
+            "Type": "System.Double"
+          },
+          {
+            "Name": "_TimeReceived",
+            "Type": "System.DateTime"
+          },
+          {
+            "Name": "_ItemId",
+            "Type": "System.String"
+          }
+        ]
+      },
+      {
+        "Table": "SqlAtpStatus",
+        "Columns": [
+          {
+            "Name": "TenantId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "TimeGenerated",
+            "Type": "System.DateTime"
+          },
+          {
+            "Name": "AgentId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "ManagementGroupId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "TimeUploaded",
+            "Type": "System.DateTime"
+          },
+          {
+            "Name": "ManagementGroupName",
+            "Type": "System.String"
+          },
+          {
+            "Name": "ClientIP",
+            "Type": "System.String"
+          },
+          {
+            "Name": "HostResourceId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "Computer",
+            "Type": "System.String"
+          },
+          {
+            "Name": "SqlInstanceName",
+            "Type": "System.String"
+          },
+          {
+            "Name": "Status",
+            "Type": "System.String"
+          },
+          {
+            "Name": "LastError",
+            "Type": "System.String"
+          },
+          {
+            "Name": "IntelligencePackVersion",
+            "Type": "System.String"
+          },
+          {
+            "Name": "SqlInstanceVersion",
+            "Type": "System.String"
+          },
+          {
+            "Name": "SqlInstanceStartTime",
+            "Type": "System.DateTime"
+          },
+          {
+            "Name": "AgentStartTime",
+            "Type": "System.DateTime"
+          },
+          {
+            "Name": "MachineUUID",
+            "Type": "System.String"
+          },
+          {
+            "Name": "SourceSystem",
+            "Type": "System.String"
+          },
+          {
+            "Name": "Type",
+            "Type": "System.String"
+          },
+          {
+            "Name": "_IsBillable",
+            "Type": "System.String"
+          },
+          {
+            "Name": "_BilledSize",
+            "Type": "System.Double"
+          },
+          {
+            "Name": "_TimeReceived",
+            "Type": "System.DateTime"
+          },
+          {
+            "Name": "_ItemId",
+            "Type": "System.String"
+          }
+        ]
+      },
+      {
+        "Table": "StorageBlobLogs",
+        "Columns": [
+          {
+            "Name": "TenantId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "TimeGenerated",
+            "Type": "System.DateTime"
+          },
+          {
+            "Name": "AccountName",
+            "Type": "System.String"
+          },
+          {
+            "Name": "Location",
+            "Type": "System.String"
+          },
+          {
+            "Name": "Protocol",
+            "Type": "System.String"
+          },
+          {
+            "Name": "OperationName",
+            "Type": "System.String"
+          },
+          {
+            "Name": "AuthenticationType",
+            "Type": "System.String"
+          },
+          {
+            "Name": "StatusCode",
+            "Type": "System.String"
+          },
+          {
+            "Name": "StatusText",
+            "Type": "System.String"
+          },
+          {
+            "Name": "DurationMs",
+            "Type": "System.Double"
+          },
+          {
+            "Name": "ServerLatencyMs",
+            "Type": "System.Double"
+          },
+          {
+            "Name": "Uri",
+            "Type": "System.String"
+          },
+          {
+            "Name": "CallerIpAddress",
+            "Type": "System.String"
+          },
+          {
+            "Name": "CorrelationId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "SchemaVersion",
+            "Type": "System.String"
+          },
+          {
+            "Name": "OperationVersion",
+            "Type": "System.String"
+          },
+          {
+            "Name": "AuthenticationHash",
+            "Type": "System.String"
+          },
+          {
+            "Name": "RequesterObjectId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "RequesterTenantId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "RequesterAppId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "RequesterAudience",
+            "Type": "System.String"
+          },
+          {
+            "Name": "RequesterTokenIssuer",
+            "Type": "System.String"
+          },
+          {
+            "Name": "RequesterUpn",
+            "Type": "System.String"
+          },
+          {
+            "Name": "AuthorizationDetails",
+            "Type": "System.Object"
+          },
+          {
+            "Name": "UserAgentHeader",
+            "Type": "System.String"
+          },
+          {
+            "Name": "ReferrerHeader",
+            "Type": "System.String"
+          },
+          {
+            "Name": "ClientRequestId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "Etag",
+            "Type": "System.String"
+          },
+          {
+            "Name": "ServiceType",
+            "Type": "System.String"
+          },
+          {
+            "Name": "OperationCount",
+            "Type": "System.Int32"
+          },
+          {
+            "Name": "ObjectKey",
+            "Type": "System.String"
+          },
+          {
+            "Name": "RequestHeaderSize",
+            "Type": "System.Int64"
+          },
+          {
+            "Name": "RequestBodySize",
+            "Type": "System.Int64"
+          },
+          {
+            "Name": "ResponseHeaderSize",
+            "Type": "System.Int64"
+          },
+          {
+            "Name": "ResponseBodySize",
+            "Type": "System.Int64"
+          },
+          {
+            "Name": "RequestMd5",
+            "Type": "System.String"
+          },
+          {
+            "Name": "ResponseMd5",
+            "Type": "System.String"
+          },
+          {
+            "Name": "LastModifiedTime",
+            "Type": "System.DateTime"
+          },
+          {
+            "Name": "ConditionsUsed",
+            "Type": "System.String"
+          },
+          {
+            "Name": "ContentLengthHeader",
+            "Type": "System.Int64"
+          },
+          {
+            "Name": "Category",
+            "Type": "System.String"
+          },
+          {
+            "Name": "TlsVersion",
+            "Type": "System.String"
+          },
+          {
+            "Name": "SasExpiryStatus",
+            "Type": "System.String"
+          },
+          {
+            "Name": "MetricResponseType",
+            "Type": "System.String"
+          },
+          {
+            "Name": "SourceUri",
+            "Type": "System.String"
+          },
+          {
+            "Name": "DestinationUri",
+            "Type": "System.String"
+          },
+          {
+            "Name": "SourceSystem",
+            "Type": "System.String"
+          },
+          {
+            "Name": "Type",
+            "Type": "System.String"
+          },
+          {
+            "Name": "_IsBillable",
+            "Type": "System.String"
+          },
+          {
+            "Name": "_BilledSize",
+            "Type": "System.Double"
+          },
+          {
+            "Name": "_TimeReceived",
+            "Type": "System.DateTime"
+          },
+          {
+            "Name": "_ItemId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "_ResourceId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "_SubscriptionId",
+            "Type": "System.String"
+          }
+        ]
+      },
+      {
+        "Table": "StorageFileLogs",
+        "Columns": [
+          {
+            "Name": "TenantId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "TimeGenerated",
+            "Type": "System.DateTime"
+          },
+          {
+            "Name": "AccountName",
+            "Type": "System.String"
+          },
+          {
+            "Name": "Location",
+            "Type": "System.String"
+          },
+          {
+            "Name": "Protocol",
+            "Type": "System.String"
+          },
+          {
+            "Name": "OperationName",
+            "Type": "System.String"
+          },
+          {
+            "Name": "AuthenticationType",
+            "Type": "System.String"
+          },
+          {
+            "Name": "StatusCode",
+            "Type": "System.String"
+          },
+          {
+            "Name": "StatusText",
+            "Type": "System.String"
+          },
+          {
+            "Name": "DurationMs",
+            "Type": "System.Double"
+          },
+          {
+            "Name": "ServerLatencyMs",
+            "Type": "System.Double"
+          },
+          {
+            "Name": "Uri",
+            "Type": "System.String"
+          },
+          {
+            "Name": "CallerIpAddress",
+            "Type": "System.String"
+          },
+          {
+            "Name": "CorrelationId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "SchemaVersion",
+            "Type": "System.String"
+          },
+          {
+            "Name": "OperationVersion",
+            "Type": "System.String"
+          },
+          {
+            "Name": "AuthenticationHash",
+            "Type": "System.String"
+          },
+          {
+            "Name": "RequesterObjectId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "RequesterTenantId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "RequesterAppId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "RequesterAudience",
+            "Type": "System.String"
+          },
+          {
+            "Name": "RequesterTokenIssuer",
+            "Type": "System.String"
+          },
+          {
+            "Name": "RequesterUpn",
+            "Type": "System.String"
+          },
+          {
+            "Name": "RequesterUserName",
+            "Type": "System.String"
+          },
+          {
+            "Name": "AuthorizationDetails",
+            "Type": "System.Object"
+          },
+          {
+            "Name": "SmbPrimarySID",
+            "Type": "System.String"
+          },
+          {
+            "Name": "UserAgentHeader",
+            "Type": "System.String"
+          },
+          {
+            "Name": "ReferrerHeader",
+            "Type": "System.String"
+          },
+          {
+            "Name": "ClientRequestId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "Etag",
+            "Type": "System.String"
+          },
+          {
+            "Name": "ServiceType",
+            "Type": "System.String"
+          },
+          {
+            "Name": "OperationCount",
+            "Type": "System.Int32"
+          },
+          {
+            "Name": "ObjectKey",
+            "Type": "System.String"
+          },
+          {
+            "Name": "RequestHeaderSize",
+            "Type": "System.Int64"
+          },
+          {
+            "Name": "RequestBodySize",
+            "Type": "System.Int64"
+          },
+          {
+            "Name": "ResponseHeaderSize",
+            "Type": "System.Int64"
+          },
+          {
+            "Name": "ResponseBodySize",
+            "Type": "System.Int64"
+          },
+          {
+            "Name": "RequestMd5",
+            "Type": "System.String"
+          },
+          {
+            "Name": "ResponseMd5",
+            "Type": "System.String"
+          },
+          {
+            "Name": "LastModifiedTime",
+            "Type": "System.DateTime"
+          },
+          {
+            "Name": "ConditionsUsed",
+            "Type": "System.String"
+          },
+          {
+            "Name": "ContentLengthHeader",
+            "Type": "System.Int64"
+          },
+          {
+            "Name": "Category",
+            "Type": "System.String"
+          },
+          {
+            "Name": "TlsVersion",
+            "Type": "System.String"
+          },
+          {
+            "Name": "SmbTreeConnectID",
+            "Type": "System.String"
+          },
+          {
+            "Name": "SmbPersistentHandleID",
+            "Type": "System.String"
+          },
+          {
+            "Name": "SmbVolatileHandleID",
+            "Type": "System.String"
+          },
+          {
+            "Name": "SmbMessageID",
+            "Type": "System.String"
+          },
+          {
+            "Name": "SmbCreditsConsumed",
+            "Type": "System.Int32"
+          },
+          {
+            "Name": "SmbCommandDetail",
+            "Type": "System.String"
+          },
+          {
+            "Name": "SmbFileId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "SmbSessionID",
+            "Type": "System.String"
+          },
+          {
+            "Name": "SmbCommandMajor",
+            "Type": "System.Int32"
+          },
+          {
+            "Name": "SmbCommandMinor",
+            "Type": "System.String"
+          },
+          {
+            "Name": "SasExpiryStatus",
+            "Type": "System.String"
+          },
+          {
+            "Name": "MetricResponseType",
+            "Type": "System.String"
+          },
+          {
+            "Name": "SmbStatusCode",
+            "Type": "System.String"
+          },
+          {
+            "Name": "SourceSystem",
+            "Type": "System.String"
+          },
+          {
+            "Name": "Type",
+            "Type": "System.String"
+          },
+          {
+            "Name": "_IsBillable",
+            "Type": "System.String"
+          },
+          {
+            "Name": "_BilledSize",
+            "Type": "System.Double"
+          },
+          {
+            "Name": "_TimeReceived",
+            "Type": "System.DateTime"
+          },
+          {
+            "Name": "_ItemId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "_ResourceId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "_SubscriptionId",
+            "Type": "System.String"
+          }
+        ]
+      },
+      {
+        "Table": "Syslog",
+        "Columns": [
+          {
+            "Name": "TenantId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "SourceSystem",
+            "Type": "System.String"
+          },
+          {
+            "Name": "TimeGenerated",
+            "Type": "System.DateTime"
+          },
+          {
+            "Name": "Computer",
+            "Type": "System.String"
+          },
+          {
+            "Name": "EventTime",
+            "Type": "System.DateTime"
+          },
+          {
+            "Name": "Facility",
+            "Type": "System.String"
+          },
+          {
+            "Name": "HostName",
+            "Type": "System.String"
+          },
+          {
+            "Name": "SeverityLevel",
+            "Type": "System.String"
+          },
+          {
+            "Name": "SyslogMessage",
+            "Type": "System.String"
+          },
+          {
+            "Name": "ProcessID",
+            "Type": "System.Int32"
+          },
+          {
+            "Name": "HostIP",
+            "Type": "System.String"
+          },
+          {
+            "Name": "ProcessName",
+            "Type": "System.String"
+          },
+          {
+            "Name": "MG",
+            "Type": "System.String"
+          },
+          {
+            "Name": "Type",
+            "Type": "System.String"
+          },
+          {
+            "Name": "_IsBillable",
+            "Type": "System.String"
+          },
+          {
+            "Name": "_BilledSize",
+            "Type": "System.Double"
+          },
+          {
+            "Name": "_TimeReceived",
+            "Type": "System.DateTime"
+          },
+          {
+            "Name": "_ItemId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "_ResourceId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "_SubscriptionId",
+            "Type": "System.String"
+          }
+        ]
+      },
+      {
+        "Table": "ThreatIntelligenceIndicator",
+        "Columns": [
+          {
+            "Name": "TenantId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "TimeGenerated",
+            "Type": "System.DateTime"
+          },
+          {
+            "Name": "SourceSystem",
+            "Type": "System.String"
+          },
+          {
+            "Name": "Action",
+            "Type": "System.String"
+          },
+          {
+            "Name": "ActivityGroupNames",
+            "Type": "System.String"
+          },
+          {
+            "Name": "AdditionalInformation",
+            "Type": "System.String"
+          },
+          {
+            "Name": "ApplicationId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "AzureTenantId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "ConfidenceScore",
+            "Type": "System.Double"
+          },
+          {
+            "Name": "Description",
+            "Type": "System.String"
+          },
+          {
+            "Name": "DiamondModel",
+            "Type": "System.String"
+          },
+          {
+            "Name": "ExternalIndicatorId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "ExpirationDateTime",
+            "Type": "System.DateTime"
+          },
+          {
+            "Name": "IndicatorId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "ThreatType",
+            "Type": "System.String"
+          },
+          {
+            "Name": "Active",
+            "Type": "System.SByte"
+          },
+          {
+            "Name": "KillChainActions",
+            "Type": "System.SByte"
+          },
+          {
+            "Name": "KillChainC2",
+            "Type": "System.SByte"
+          },
+          {
+            "Name": "KillChainDelivery",
+            "Type": "System.SByte"
+          },
+          {
+            "Name": "KillChainExploitation",
+            "Type": "System.SByte"
+          },
+          {
+            "Name": "KillChainReconnaissance",
+            "Type": "System.SByte"
+          },
+          {
+            "Name": "KillChainWeaponization",
+            "Type": "System.SByte"
+          },
+          {
+            "Name": "KnownFalsePositives",
+            "Type": "System.String"
+          },
+          {
+            "Name": "MalwareNames",
+            "Type": "System.String"
+          },
+          {
+            "Name": "PassiveOnly",
+            "Type": "System.SByte"
+          },
+          {
+            "Name": "ThreatSeverity",
+            "Type": "System.Int32"
+          },
+          {
+            "Name": "Tags",
+            "Type": "System.String"
+          },
+          {
+            "Name": "TrafficLightProtocolLevel",
+            "Type": "System.String"
+          },
+          {
+            "Name": "EmailEncoding",
+            "Type": "System.String"
+          },
+          {
+            "Name": "EmailLanguage",
+            "Type": "System.String"
+          },
+          {
+            "Name": "EmailRecipient",
+            "Type": "System.String"
+          },
+          {
+            "Name": "EmailSenderAddress",
+            "Type": "System.String"
+          },
+          {
+            "Name": "EmailSenderName",
+            "Type": "System.String"
+          },
+          {
+            "Name": "EmailSourceDomain",
+            "Type": "System.String"
+          },
+          {
+            "Name": "EmailSourceIpAddress",
+            "Type": "System.String"
+          },
+          {
+            "Name": "EmailSubject",
+            "Type": "System.String"
+          },
+          {
+            "Name": "EmailXMailer",
+            "Type": "System.String"
+          },
+          {
+            "Name": "FileCompileDateTime",
+            "Type": "System.DateTime"
+          },
+          {
+            "Name": "FileCreatedDateTime",
+            "Type": "System.DateTime"
+          },
+          {
+            "Name": "FileHashType",
+            "Type": "System.String"
+          },
+          {
+            "Name": "FileHashValue",
+            "Type": "System.String"
+          },
+          {
+            "Name": "FileMutexName",
+            "Type": "System.String"
+          },
+          {
+            "Name": "FileName",
+            "Type": "System.String"
+          },
+          {
+            "Name": "FilePacker",
+            "Type": "System.String"
+          },
+          {
+            "Name": "FilePath",
+            "Type": "System.String"
+          },
+          {
+            "Name": "FileSize",
+            "Type": "System.Int32"
+          },
+          {
+            "Name": "FileType",
+            "Type": "System.String"
+          },
+          {
+            "Name": "DomainName",
+            "Type": "System.String"
+          },
+          {
+            "Name": "NetworkIP",
+            "Type": "System.String"
+          },
+          {
+            "Name": "NetworkPort",
+            "Type": "System.Int32"
+          },
+          {
+            "Name": "NetworkDestinationAsn",
+            "Type": "System.Int32"
+          },
+          {
+            "Name": "NetworkDestinationCidrBlock",
+            "Type": "System.String"
+          },
+          {
+            "Name": "NetworkDestinationIP",
+            "Type": "System.String"
+          },
+          {
+            "Name": "NetworkCidrBlock",
+            "Type": "System.String"
+          },
+          {
+            "Name": "NetworkDestinationPort",
+            "Type": "System.Int32"
+          },
+          {
+            "Name": "NetworkProtocol",
+            "Type": "System.Int32"
+          },
+          {
+            "Name": "NetworkSourceAsn",
+            "Type": "System.Int32"
+          },
+          {
+            "Name": "NetworkSourceCidrBlock",
+            "Type": "System.String"
+          },
+          {
+            "Name": "NetworkSourceIP",
+            "Type": "System.String"
+          },
+          {
+            "Name": "NetworkSourcePort",
+            "Type": "System.Int32"
+          },
+          {
+            "Name": "Url",
+            "Type": "System.String"
+          },
+          {
+            "Name": "UserAgent",
+            "Type": "System.String"
+          },
+          {
+            "Name": "IndicatorProvider",
+            "Type": "System.String"
+          },
+          {
+            "Name": "Type",
+            "Type": "System.String"
+          },
+          {
+            "Name": "_IsBillable",
+            "Type": "System.String"
+          },
+          {
+            "Name": "_BilledSize",
+            "Type": "System.Double"
+          },
+          {
+            "Name": "_TimeReceived",
+            "Type": "System.DateTime"
+          },
+          {
+            "Name": "_ItemId",
+            "Type": "System.String"
+          }
+        ]
+      },
+      {
+        "Table": "VMBoundPort",
+        "Columns": [
+          {
+            "Name": "TimeGenerated",
+            "Type": "System.DateTime"
+          },
+          {
+            "Name": "Computer",
+            "Type": "System.String"
+          },
+          {
+            "Name": "ProcessName",
+            "Type": "System.String"
+          },
+          {
+            "Name": "Ip",
+            "Type": "System.String"
+          },
+          {
+            "Name": "Port",
+            "Type": "System.Int32"
+          },
+          {
+            "Name": "Protocol",
+            "Type": "System.String"
+          },
+          {
+            "Name": "IsWildcardBind",
+            "Type": "System.SByte"
+          },
+          {
+            "Name": "BytesSent",
+            "Type": "System.Int64"
+          },
+          {
+            "Name": "BytesReceived",
+            "Type": "System.Int64"
+          },
+          {
+            "Name": "LinksLive",
+            "Type": "System.Int64"
+          },
+          {
+            "Name": "LinksTerminated",
+            "Type": "System.Int64"
+          },
+          {
+            "Name": "LinksEstablished",
+            "Type": "System.Int64"
+          },
+          {
+            "Name": "Responses",
+            "Type": "System.Int64"
+          },
+          {
+            "Name": "ResponseTimeSum",
+            "Type": "System.Int64"
+          },
+          {
+            "Name": "ResponseTimeMin",
+            "Type": "System.Int64"
+          },
+          {
+            "Name": "ResponseTimeMax",
+            "Type": "System.Int64"
+          },
+          {
+            "Name": "PortId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "Machine",
+            "Type": "System.String"
+          },
+          {
+            "Name": "Process",
+            "Type": "System.String"
+          },
+          {
+            "Name": "AgentId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "TenantId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "SourceSystem",
+            "Type": "System.String"
+          },
+          {
+            "Name": "Type",
+            "Type": "System.String"
+          },
+          {
+            "Name": "_IsBillable",
+            "Type": "System.String"
+          },
+          {
+            "Name": "_BilledSize",
+            "Type": "System.Double"
+          },
+          {
+            "Name": "_TimeReceived",
+            "Type": "System.DateTime"
+          },
+          {
+            "Name": "_ItemId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "_ResourceId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "_SubscriptionId",
+            "Type": "System.String"
+          }
+        ]
+      },
+      {
+        "Table": "VMComputer",
+        "Columns": [
+          {
+            "Name": "TimeGenerated",
+            "Type": "System.DateTime"
+          },
+          {
+            "Name": "Computer",
+            "Type": "System.String"
+          },
+          {
+            "Name": "AgentId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "Machine",
+            "Type": "System.String"
+          },
+          {
+            "Name": "DisplayName",
+            "Type": "System.String"
+          },
+          {
+            "Name": "FullDisplayName",
+            "Type": "System.String"
+          },
+          {
+            "Name": "HostName",
+            "Type": "System.String"
+          },
+          {
+            "Name": "BootTime",
+            "Type": "System.DateTime"
+          },
+          {
+            "Name": "TimeZone",
+            "Type": "System.String"
+          },
+          {
+            "Name": "VirtualizationState",
+            "Type": "System.String"
+          },
+          {
+            "Name": "Ipv4Addresses",
+            "Type": "System.Object"
+          },
+          {
+            "Name": "Ipv4SubnetMasks",
+            "Type": "System.Object"
+          },
+          {
+            "Name": "Ipv4DefaultGateways",
+            "Type": "System.Object"
+          },
+          {
+            "Name": "Ipv6Addresses",
+            "Type": "System.Object"
+          },
+          {
+            "Name": "MacAddresses",
+            "Type": "System.Object"
+          },
+          {
+            "Name": "DnsNames",
+            "Type": "System.Object"
+          },
+          {
+            "Name": "DependencyAgentVersion",
+            "Type": "System.String"
+          },
+          {
+            "Name": "OperatingSystemFamily",
+            "Type": "System.String"
+          },
+          {
+            "Name": "OperatingSystemFullName",
+            "Type": "System.String"
+          },
+          {
+            "Name": "PhysicalMemoryMB",
+            "Type": "System.Int64"
+          },
+          {
+            "Name": "Cpus",
+            "Type": "System.Int32"
+          },
+          {
+            "Name": "CpuSpeed",
+            "Type": "System.Int32"
+          },
+          {
+            "Name": "VirtualMachineType",
+            "Type": "System.String"
+          },
+          {
+            "Name": "VirtualMachineNativeId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "VirtualMachineNativeName",
+            "Type": "System.String"
+          },
+          {
+            "Name": "VirtualMachineHypervisorId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "HypervisorType",
+            "Type": "System.String"
+          },
+          {
+            "Name": "HypervisorId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "HostingProvider",
+            "Type": "System.String"
+          },
+          {
+            "Name": "AzureSubscriptionId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "AzureResourceGroup",
+            "Type": "System.String"
+          },
+          {
+            "Name": "AzureResourceName",
+            "Type": "System.String"
+          },
+          {
+            "Name": "AzureLocation",
+            "Type": "System.String"
+          },
+          {
+            "Name": "AzureUpdateDomain",
+            "Type": "System.String"
+          },
+          {
+            "Name": "AzureFaultDomain",
+            "Type": "System.String"
+          },
+          {
+            "Name": "AzureVmId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "AzureSize",
+            "Type": "System.String"
+          },
+          {
+            "Name": "AzureImagePublisher",
+            "Type": "System.String"
+          },
+          {
+            "Name": "AzureImageOffering",
+            "Type": "System.String"
+          },
+          {
+            "Name": "AzureImageSku",
+            "Type": "System.String"
+          },
+          {
+            "Name": "AzureImageVersion",
+            "Type": "System.String"
+          },
+          {
+            "Name": "AzureCloudServiceName",
+            "Type": "System.String"
+          },
+          {
+            "Name": "AzureCloudServiceDeployment",
+            "Type": "System.String"
+          },
+          {
+            "Name": "AzureCloudServiceRoleName",
+            "Type": "System.String"
+          },
+          {
+            "Name": "AzureCloudServiceRoleType",
+            "Type": "System.String"
+          },
+          {
+            "Name": "AzureCloudServiceInstanceId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "AzureVmScaleSetName",
+            "Type": "System.String"
+          },
+          {
+            "Name": "AzureVmScaleSetDeployment",
+            "Type": "System.String"
+          },
+          {
+            "Name": "AzureVmScaleSetResourceId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "AzureVmScaleSetInstanceId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "AzureServiceFabricClusterId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "AzureServiceFabricClusterName",
+            "Type": "System.String"
+          },
+          {
+            "Name": "TenantId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "SourceSystem",
+            "Type": "System.String"
+          },
+          {
+            "Name": "Type",
+            "Type": "System.String"
+          },
+          {
+            "Name": "_IsBillable",
+            "Type": "System.String"
+          },
+          {
+            "Name": "_BilledSize",
+            "Type": "System.Double"
+          },
+          {
+            "Name": "_TimeReceived",
+            "Type": "System.DateTime"
+          },
+          {
+            "Name": "_ItemId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "_ResourceId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "_SubscriptionId",
+            "Type": "System.String"
+          }
+        ]
+      },
+      {
+        "Table": "VMConnection",
+        "Columns": [
+          {
+            "Name": "TimeGenerated",
+            "Type": "System.DateTime"
+          },
+          {
+            "Name": "Computer",
+            "Type": "System.String"
+          },
+          {
+            "Name": "Direction",
+            "Type": "System.String"
+          },
+          {
+            "Name": "ProcessName",
+            "Type": "System.String"
+          },
+          {
+            "Name": "SourceIp",
+            "Type": "System.String"
+          },
+          {
+            "Name": "DestinationIp",
+            "Type": "System.String"
+          },
+          {
+            "Name": "DestinationPort",
+            "Type": "System.Int32"
+          },
+          {
+            "Name": "Protocol",
+            "Type": "System.String"
+          },
+          {
+            "Name": "RemoteIp",
+            "Type": "System.String"
+          },
+          {
+            "Name": "RemoteDnsQuestions",
+            "Type": "System.String"
+          },
+          {
+            "Name": "RemoteDnsCanonicalNames",
+            "Type": "System.String"
+          },
+          {
+            "Name": "RemoteClassification",
+            "Type": "System.String"
+          },
+          {
+            "Name": "RemoteLongitude",
+            "Type": "System.Double"
+          },
+          {
+            "Name": "RemoteLatitude",
+            "Type": "System.Double"
+          },
+          {
+            "Name": "RemoteCountry",
+            "Type": "System.String"
+          },
+          {
+            "Name": "BytesSent",
+            "Type": "System.Int64"
+          },
+          {
+            "Name": "BytesReceived",
+            "Type": "System.Int64"
+          },
+          {
+            "Name": "LinksLive",
+            "Type": "System.Int64"
+          },
+          {
+            "Name": "LinksTerminated",
+            "Type": "System.Int64"
+          },
+          {
+            "Name": "LinksEstablished",
+            "Type": "System.Int64"
+          },
+          {
+            "Name": "LinksFailed",
+            "Type": "System.Int64"
+          },
+          {
+            "Name": "Responses",
+            "Type": "System.Int64"
+          },
+          {
+            "Name": "ResponseTimeSum",
+            "Type": "System.Int64"
+          },
+          {
+            "Name": "ResponseTimeMin",
+            "Type": "System.Int64"
+          },
+          {
+            "Name": "ResponseTimeMax",
+            "Type": "System.Int64"
+          },
+          {
+            "Name": "MaliciousIp",
+            "Type": "System.String"
+          },
+          {
+            "Name": "IndicatorThreatType",
+            "Type": "System.String"
+          },
+          {
+            "Name": "Description",
+            "Type": "System.String"
+          },
+          {
+            "Name": "TLPLevel",
+            "Type": "System.String"
+          },
+          {
+            "Name": "Confidence",
+            "Type": "System.String"
+          },
+          {
+            "Name": "Severity",
+            "Type": "System.Int32"
+          },
+          {
+            "Name": "FirstReportedDateTime",
+            "Type": "System.String"
+          },
+          {
+            "Name": "LastReportedDateTime",
+            "Type": "System.String"
+          },
+          {
+            "Name": "IsActive",
+            "Type": "System.String"
+          },
+          {
+            "Name": "ReportReferenceLink",
+            "Type": "System.String"
+          },
+          {
+            "Name": "AdditionalInformation",
+            "Type": "System.String"
+          },
+          {
+            "Name": "ConnectionId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "Machine",
+            "Type": "System.String"
+          },
+          {
+            "Name": "Process",
+            "Type": "System.String"
+          },
+          {
+            "Name": "AgentId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "TenantId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "SourceSystem",
+            "Type": "System.String"
+          },
+          {
+            "Name": "Type",
+            "Type": "System.String"
+          },
+          {
+            "Name": "_IsBillable",
+            "Type": "System.String"
+          },
+          {
+            "Name": "_BilledSize",
+            "Type": "System.Double"
+          },
+          {
+            "Name": "_TimeReceived",
+            "Type": "System.DateTime"
+          },
+          {
+            "Name": "_ItemId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "_ResourceId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "_SubscriptionId",
+            "Type": "System.String"
+          }
+        ]
+      },
+      {
+        "Table": "VMProcess",
+        "Columns": [
+          {
+            "Name": "TimeGenerated",
+            "Type": "System.DateTime"
+          },
+          {
+            "Name": "Computer",
+            "Type": "System.String"
+          },
+          {
+            "Name": "AgentId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "Machine",
+            "Type": "System.String"
+          },
+          {
+            "Name": "Process",
+            "Type": "System.String"
+          },
+          {
+            "Name": "ExecutableName",
+            "Type": "System.String"
+          },
+          {
+            "Name": "DisplayName",
+            "Type": "System.String"
+          },
+          {
+            "Name": "Role",
+            "Type": "System.String"
+          },
+          {
+            "Name": "Group",
+            "Type": "System.String"
+          },
+          {
+            "Name": "StartTime",
+            "Type": "System.DateTime"
+          },
+          {
+            "Name": "FirstPid",
+            "Type": "System.Int32"
+          },
+          {
+            "Name": "Description",
+            "Type": "System.String"
+          },
+          {
+            "Name": "CompanyName",
+            "Type": "System.String"
+          },
+          {
+            "Name": "InternalName",
+            "Type": "System.String"
+          },
+          {
+            "Name": "ProductName",
+            "Type": "System.String"
+          },
+          {
+            "Name": "ProductVersion",
+            "Type": "System.String"
+          },
+          {
+            "Name": "FileVersion",
+            "Type": "System.String"
+          },
+          {
+            "Name": "ExecutablePath",
+            "Type": "System.String"
+          },
+          {
+            "Name": "CommandLine",
+            "Type": "System.String"
+          },
+          {
+            "Name": "WorkingDirectory",
+            "Type": "System.String"
+          },
+          {
+            "Name": "Services",
+            "Type": "System.Object"
+          },
+          {
+            "Name": "UserName",
+            "Type": "System.String"
+          },
+          {
+            "Name": "UserDomain",
+            "Type": "System.String"
+          },
+          {
+            "Name": "TenantId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "SourceSystem",
+            "Type": "System.String"
+          },
+          {
+            "Name": "Type",
+            "Type": "System.String"
+          },
+          {
+            "Name": "_IsBillable",
+            "Type": "System.String"
+          },
+          {
+            "Name": "_BilledSize",
+            "Type": "System.Double"
+          },
+          {
+            "Name": "_TimeReceived",
+            "Type": "System.DateTime"
+          },
+          {
+            "Name": "_ItemId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "_ResourceId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "_SubscriptionId",
+            "Type": "System.String"
+          }
+        ]
+      },
+      {
+        "Table": "W3CIISLog",
+        "Columns": [
+          {
+            "Name": "TenantId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "SourceSystem",
+            "Type": "System.String"
+          },
+          {
+            "Name": "FileUri",
+            "Type": "System.String"
+          },
+          {
+            "Name": "FileOffset",
+            "Type": "System.Int32"
+          },
+          {
+            "Name": "StorageAccount",
+            "Type": "System.String"
+          },
+          {
+            "Name": "AzureDeploymentID",
+            "Type": "System.String"
+          },
+          {
+            "Name": "Role",
+            "Type": "System.String"
+          },
+          {
+            "Name": "RoleInstance",
+            "Type": "System.String"
+          },
+          {
+            "Name": "Date",
+            "Type": "System.String"
+          },
+          {
+            "Name": "Time",
+            "Type": "System.String"
+          },
+          {
+            "Name": "TimeGenerated",
+            "Type": "System.DateTime"
+          },
+          {
+            "Name": "sSiteName",
+            "Type": "System.String"
+          },
+          {
+            "Name": "sComputerName",
+            "Type": "System.String"
+          },
+          {
+            "Name": "sIP",
+            "Type": "System.String"
+          },
+          {
+            "Name": "csMethod",
+            "Type": "System.String"
+          },
+          {
+            "Name": "csUriStem",
+            "Type": "System.String"
+          },
+          {
+            "Name": "csUriQuery",
+            "Type": "System.String"
+          },
+          {
+            "Name": "sPort",
+            "Type": "System.Int32"
+          },
+          {
+            "Name": "csUserName",
+            "Type": "System.String"
+          },
+          {
+            "Name": "cIP",
+            "Type": "System.String"
+          },
+          {
+            "Name": "csVersion",
+            "Type": "System.String"
+          },
+          {
+            "Name": "csUserAgent",
+            "Type": "System.String"
+          },
+          {
+            "Name": "csCookie",
+            "Type": "System.String"
+          },
+          {
+            "Name": "csReferer",
+            "Type": "System.String"
+          },
+          {
+            "Name": "csHost",
+            "Type": "System.String"
+          },
+          {
+            "Name": "scStatus",
+            "Type": "System.String"
+          },
+          {
+            "Name": "scSubStatus",
+            "Type": "System.String"
+          },
+          {
+            "Name": "scWin32Status",
+            "Type": "System.String"
+          },
+          {
+            "Name": "scBytes",
+            "Type": "System.Int64"
+          },
+          {
+            "Name": "csBytes",
+            "Type": "System.Int64"
+          },
+          {
+            "Name": "TimeTaken",
+            "Type": "System.Int64"
+          },
+          {
+            "Name": "Computer",
+            "Type": "System.String"
+          },
+          {
+            "Name": "MaliciousIP",
+            "Type": "System.String"
+          },
+          {
+            "Name": "IndicatorThreatType",
+            "Type": "System.String"
+          },
+          {
+            "Name": "Description",
+            "Type": "System.String"
+          },
+          {
+            "Name": "TLPLevel",
+            "Type": "System.String"
+          },
+          {
+            "Name": "Confidence",
+            "Type": "System.String"
+          },
+          {
+            "Name": "Severity",
+            "Type": "System.Int32"
+          },
+          {
+            "Name": "FirstReportedDateTime",
+            "Type": "System.String"
+          },
+          {
+            "Name": "LastReportedDateTime",
+            "Type": "System.String"
+          },
+          {
+            "Name": "IsActive",
+            "Type": "System.String"
+          },
+          {
+            "Name": "ReportReferenceLink",
+            "Type": "System.String"
+          },
+          {
+            "Name": "AdditionalInformation",
+            "Type": "System.String"
+          },
+          {
+            "Name": "RemoteIPLongitude",
+            "Type": "System.Double"
+          },
+          {
+            "Name": "RemoteIPLatitude",
+            "Type": "System.Double"
+          },
+          {
+            "Name": "RemoteIPCountry",
+            "Type": "System.String"
+          },
+          {
+            "Name": "MG",
+            "Type": "System.String"
+          },
+          {
+            "Name": "ManagementGroupName",
+            "Type": "System.String"
+          },
+          {
+            "Name": "Type",
+            "Type": "System.String"
+          },
+          {
+            "Name": "_IsBillable",
+            "Type": "System.String"
+          },
+          {
+            "Name": "_BilledSize",
+            "Type": "System.Double"
+          },
+          {
+            "Name": "_TimeReceived",
+            "Type": "System.DateTime"
+          },
+          {
+            "Name": "_ItemId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "_ResourceId",
+            "Type": "System.String"
+          },
+          {
+            "Name": "_SubscriptionId",
+            "Type": "System.String"
+          }
+        ]
+      }
+    ],
+    "Functions": []
+  }
+]

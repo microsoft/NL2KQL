@@ -1,0 +1,3153 @@
+[
+  {
+    "Database": "DB",
+    "Tables": [
+      {
+        "Columns": [
+          {
+            "Type": "System.DateTime",
+            "Name": "Timestamp"
+          },
+          {
+            "Type": "System.String",
+            "Name": "AlertId"
+          },
+          {
+            "Type": "System.String",
+            "Name": "Title"
+          },
+          {
+            "Type": "System.String",
+            "Name": "Category"
+          },
+          {
+            "Type": "System.String",
+            "Name": "Severity"
+          },
+          {
+            "Type": "System.String",
+            "Name": "ServiceSource"
+          },
+          {
+            "Type": "System.String",
+            "Name": "DetectionSource"
+          },
+          {
+            "Type": "System.String",
+            "Name": "AttackTechniques"
+          }
+        ],
+        "Table": "AlertInfo"
+      },
+      {
+        "Columns": [
+          {
+            "Type": "System.DateTime",
+            "Name": "Timestamp"
+          },
+          {
+            "Type": "System.String",
+            "Name": "AlertId"
+          },
+          {
+            "Type": "System.String",
+            "Name": "ServiceSource"
+          },
+          {
+            "Type": "System.String",
+            "Name": "EntityType"
+          },
+          {
+            "Type": "System.String",
+            "Name": "EvidenceRole"
+          },
+          {
+            "Type": "System.String",
+            "Name": "EvidenceDirection"
+          },
+          {
+            "Type": "System.String",
+            "Name": "FileName"
+          },
+          {
+            "Type": "System.String",
+            "Name": "FolderPath"
+          },
+          {
+            "Type": "System.String",
+            "Name": "SHA1"
+          },
+          {
+            "Type": "System.String",
+            "Name": "SHA256"
+          },
+          {
+            "Type": "System.Int64",
+            "Name": "FileSize"
+          },
+          {
+            "Type": "System.String",
+            "Name": "ThreatFamily"
+          },
+          {
+            "Type": "System.String",
+            "Name": "RemoteIP"
+          },
+          {
+            "Type": "System.String",
+            "Name": "RemoteUrl"
+          },
+          {
+            "Type": "System.String",
+            "Name": "AccountName"
+          },
+          {
+            "Type": "System.String",
+            "Name": "AccountDomain"
+          },
+          {
+            "Type": "System.String",
+            "Name": "AccountSid"
+          },
+          {
+            "Type": "System.String",
+            "Name": "AccountObjectId"
+          },
+          {
+            "Type": "System.String",
+            "Name": "AccountUpn"
+          },
+          {
+            "Type": "System.String",
+            "Name": "DeviceId"
+          },
+          {
+            "Type": "System.String",
+            "Name": "DeviceName"
+          },
+          {
+            "Type": "System.String",
+            "Name": "LocalIP"
+          },
+          {
+            "Type": "System.String",
+            "Name": "NetworkMessageId"
+          },
+          {
+            "Type": "System.String",
+            "Name": "EmailSubject"
+          },
+          {
+            "Type": "System.String",
+            "Name": "Application"
+          },
+          {
+            "Type": "System.String",
+            "Name": "ApplicationId"
+          },
+          {
+            "Type": "System.String",
+            "Name": "OAuthApplicationId"
+          },
+          {
+            "Type": "System.String",
+            "Name": "ProcessCommandLine"
+          },
+          {
+            "Type": "System.String",
+            "Name": "RegistryKey"
+          },
+          {
+            "Type": "System.String",
+            "Name": "RegistryValueName"
+          },
+          {
+            "Type": "System.String",
+            "Name": "RegistryValueData"
+          },
+          {
+            "Type": "System.String",
+            "Name": "AdditionalFields"
+          }
+        ],
+        "Table": "AlertEvidence"
+      },
+      {
+        "Columns": [
+          {
+            "Type": "System.String",
+            "Name": "AccountObjectId"
+          },
+          {
+            "Type": "System.String",
+            "Name": "AccountUpn"
+          },
+          {
+            "Type": "System.String",
+            "Name": "OnPremSid"
+          },
+          {
+            "Type": "System.String",
+            "Name": "CloudSid"
+          },
+          {
+            "Type": "System.String",
+            "Name": "GivenName"
+          },
+          {
+            "Type": "System.String",
+            "Name": "Surname"
+          },
+          {
+            "Type": "System.String",
+            "Name": "AccountDisplayName"
+          },
+          {
+            "Type": "System.String",
+            "Name": "Department"
+          },
+          {
+            "Type": "System.String",
+            "Name": "JobTitle"
+          },
+          {
+            "Type": "System.String",
+            "Name": "AccountName"
+          },
+          {
+            "Type": "System.String",
+            "Name": "AccountDomain"
+          },
+          {
+            "Type": "System.String",
+            "Name": "EmailAddress"
+          },
+          {
+            "Type": "System.String",
+            "Name": "SipProxyAddress"
+          },
+          {
+            "Type": "System.String",
+            "Name": "City"
+          },
+          {
+            "Type": "System.String",
+            "Name": "Country"
+          },
+          {
+            "Type": "Boolean",
+            "Name": "IsAccountEnabled"
+          }
+        ],
+        "Table": "IdentityInfo"
+      },
+      {
+        "Columns": [
+          {
+            "Type": "System.DateTime",
+            "Name": "Timestamp"
+          },
+          {
+            "Type": "System.String",
+            "Name": "ActionType"
+          },
+          {
+            "Type": "System.String",
+            "Name": "Application"
+          },
+          {
+            "Type": "System.String",
+            "Name": "LogonType"
+          },
+          {
+            "Type": "System.String",
+            "Name": "Protocol"
+          },
+          {
+            "Type": "System.String",
+            "Name": "FailureReason"
+          },
+          {
+            "Type": "System.String",
+            "Name": "AccountName"
+          },
+          {
+            "Type": "System.String",
+            "Name": "AccountDomain"
+          },
+          {
+            "Type": "System.String",
+            "Name": "AccountUpn"
+          },
+          {
+            "Type": "System.String",
+            "Name": "AccountSid"
+          },
+          {
+            "Type": "System.String",
+            "Name": "AccountObjectId"
+          },
+          {
+            "Type": "System.String",
+            "Name": "AccountDisplayName"
+          },
+          {
+            "Type": "System.String",
+            "Name": "DeviceName"
+          },
+          {
+            "Type": "System.String",
+            "Name": "DeviceType"
+          },
+          {
+            "Type": "System.String",
+            "Name": "OSPlatform"
+          },
+          {
+            "Type": "System.String",
+            "Name": "IPAddress"
+          },
+          {
+            "Type": "System.Int32",
+            "Name": "Port"
+          },
+          {
+            "Type": "System.String",
+            "Name": "DestinationDeviceName"
+          },
+          {
+            "Type": "System.String",
+            "Name": "DestinationIPAddress"
+          },
+          {
+            "Type": "System.Int32",
+            "Name": "DestinationPort"
+          },
+          {
+            "Type": "System.String",
+            "Name": "TargetDeviceName"
+          },
+          {
+            "Type": "System.String",
+            "Name": "TargetAccountDisplayName"
+          },
+          {
+            "Type": "System.String",
+            "Name": "Location"
+          },
+          {
+            "Type": "System.String",
+            "Name": "ISP"
+          },
+          {
+            "Type": "System.String",
+            "Name": "ReportId"
+          },
+          {
+            "Type": "System.Object",
+            "Name": "AdditionalFields"
+          }
+        ],
+        "Table": "IdentityLogonEvents"
+      },
+      {
+        "Columns": [
+          {
+            "Type": "System.DateTime",
+            "Name": "Timestamp"
+          },
+          {
+            "Type": "System.String",
+            "Name": "ActionType"
+          },
+          {
+            "Type": "System.String",
+            "Name": "Application"
+          },
+          {
+            "Type": "System.String",
+            "Name": "QueryType"
+          },
+          {
+            "Type": "System.String",
+            "Name": "QueryTarget"
+          },
+          {
+            "Type": "System.String",
+            "Name": "Query"
+          },
+          {
+            "Type": "System.String",
+            "Name": "Protocol"
+          },
+          {
+            "Type": "System.String",
+            "Name": "AccountName"
+          },
+          {
+            "Type": "System.String",
+            "Name": "AccountDomain"
+          },
+          {
+            "Type": "System.String",
+            "Name": "AccountUpn"
+          },
+          {
+            "Type": "System.String",
+            "Name": "AccountSid"
+          },
+          {
+            "Type": "System.String",
+            "Name": "AccountObjectId"
+          },
+          {
+            "Type": "System.String",
+            "Name": "AccountDisplayName"
+          },
+          {
+            "Type": "System.String",
+            "Name": "DeviceName"
+          },
+          {
+            "Type": "System.String",
+            "Name": "IPAddress"
+          },
+          {
+            "Type": "System.Int32",
+            "Name": "Port"
+          },
+          {
+            "Type": "System.String",
+            "Name": "DestinationDeviceName"
+          },
+          {
+            "Type": "System.String",
+            "Name": "DestinationIPAddress"
+          },
+          {
+            "Type": "System.Int32",
+            "Name": "DestinationPort"
+          },
+          {
+            "Type": "System.String",
+            "Name": "TargetDeviceName"
+          },
+          {
+            "Type": "System.String",
+            "Name": "TargetAccountUpn"
+          },
+          {
+            "Type": "System.String",
+            "Name": "TargetAccountDisplayName"
+          },
+          {
+            "Type": "System.String",
+            "Name": "Location"
+          },
+          {
+            "Type": "System.String",
+            "Name": "ReportId"
+          },
+          {
+            "Type": "System.Object",
+            "Name": "AdditionalFields"
+          }
+        ],
+        "Table": "IdentityQueryEvents"
+      },
+      {
+        "Columns": [
+          {
+            "Type": "System.DateTime",
+            "Name": "Timestamp"
+          },
+          {
+            "Type": "System.String",
+            "Name": "ActionType"
+          },
+          {
+            "Type": "System.String",
+            "Name": "Application"
+          },
+          {
+            "Type": "System.String",
+            "Name": "TargetAccountUpn"
+          },
+          {
+            "Type": "System.String",
+            "Name": "TargetAccountDisplayName"
+          },
+          {
+            "Type": "System.String",
+            "Name": "TargetDeviceName"
+          },
+          {
+            "Type": "System.String",
+            "Name": "DestinationDeviceName"
+          },
+          {
+            "Type": "System.String",
+            "Name": "DestinationIPAddress"
+          },
+          {
+            "Type": "System.Int32",
+            "Name": "DestinationPort"
+          },
+          {
+            "Type": "System.String",
+            "Name": "Protocol"
+          },
+          {
+            "Type": "System.String",
+            "Name": "AccountName"
+          },
+          {
+            "Type": "System.String",
+            "Name": "AccountDomain"
+          },
+          {
+            "Type": "System.String",
+            "Name": "AccountUpn"
+          },
+          {
+            "Type": "System.String",
+            "Name": "AccountSid"
+          },
+          {
+            "Type": "System.String",
+            "Name": "AccountObjectId"
+          },
+          {
+            "Type": "System.String",
+            "Name": "AccountDisplayName"
+          },
+          {
+            "Type": "System.String",
+            "Name": "DeviceName"
+          },
+          {
+            "Type": "System.String",
+            "Name": "IPAddress"
+          },
+          {
+            "Type": "System.Int32",
+            "Name": "Port"
+          },
+          {
+            "Type": "System.String",
+            "Name": "Location"
+          },
+          {
+            "Type": "System.String",
+            "Name": "ISP"
+          },
+          {
+            "Type": "System.String",
+            "Name": "ReportId"
+          },
+          {
+            "Type": "System.Object",
+            "Name": "AdditionalFields"
+          }
+        ],
+        "Table": "IdentityDirectoryEvents"
+      },
+      {
+        "Columns": [
+          {
+            "Type": "System.DateTime",
+            "Name": "Timestamp"
+          },
+          {
+            "Type": "System.String",
+            "Name": "ActionType"
+          },
+          {
+            "Type": "System.String",
+            "Name": "Application"
+          },
+          {
+            "Type": "System.Int32",
+            "Name": "ApplicationId"
+          },
+          {
+            "Type": "System.Int32",
+            "Name": "AppInstanceId"
+          },
+          {
+            "Type": "System.String",
+            "Name": "AccountObjectId"
+          },
+          {
+            "Type": "System.String",
+            "Name": "AccountId"
+          },
+          {
+            "Type": "System.String",
+            "Name": "AccountDisplayName"
+          },
+          {
+            "Type": "Boolean",
+            "Name": "IsAdminOperation"
+          },
+          {
+            "Type": "System.String",
+            "Name": "DeviceType"
+          },
+          {
+            "Type": "System.String",
+            "Name": "OSPlatform"
+          },
+          {
+            "Type": "System.String",
+            "Name": "IPAddress"
+          },
+          {
+            "Type": "Boolean",
+            "Name": "IsAnonymousProxy"
+          },
+          {
+            "Type": "System.String",
+            "Name": "CountryCode"
+          },
+          {
+            "Type": "System.String",
+            "Name": "City"
+          },
+          {
+            "Type": "System.String",
+            "Name": "ISP"
+          },
+          {
+            "Type": "System.String",
+            "Name": "UserAgent"
+          },
+          {
+            "Type": "System.String",
+            "Name": "ActivityType"
+          },
+          {
+            "Type": "System.Object",
+            "Name": "ActivityObjects"
+          },
+          {
+            "Type": "System.String",
+            "Name": "ObjectName"
+          },
+          {
+            "Type": "System.String",
+            "Name": "ObjectType"
+          },
+          {
+            "Type": "System.String",
+            "Name": "ObjectId"
+          },
+          {
+            "Type": "System.String",
+            "Name": "ReportId"
+          },
+          {
+            "Type": "System.String",
+            "Name": "AccountType"
+          },
+          {
+            "Type": "Boolean",
+            "Name": "IsExternalUser"
+          },
+          {
+            "Type": "Boolean",
+            "Name": "IsImpersonated"
+          },
+          {
+            "Type": "System.Object",
+            "Name": "IPTags"
+          },
+          {
+            "Type": "System.String",
+            "Name": "IPCategory"
+          },
+          {
+            "Type": "System.Object",
+            "Name": "UserAgentTags"
+          },
+          {
+            "Type": "System.Object",
+            "Name": "RawEventData"
+          },
+          {
+            "Type": "System.Object",
+            "Name": "AdditionalFields"
+          }
+        ],
+        "Table": "CloudAppEvents"
+      },
+      {
+        "Columns": [
+          {
+            "Type": "System.DateTime",
+            "Name": "Timestamp"
+          },
+          {
+            "Type": "System.String",
+            "Name": "NetworkMessageId"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InternetMessageId"
+          },
+          {
+            "Type": "System.String",
+            "Name": "SenderMailFromAddress"
+          },
+          {
+            "Type": "System.String",
+            "Name": "SenderFromAddress"
+          },
+          {
+            "Type": "System.String",
+            "Name": "SenderDisplayName"
+          },
+          {
+            "Type": "System.String",
+            "Name": "SenderObjectId"
+          },
+          {
+            "Type": "System.String",
+            "Name": "SenderMailFromDomain"
+          },
+          {
+            "Type": "System.String",
+            "Name": "SenderFromDomain"
+          },
+          {
+            "Type": "System.String",
+            "Name": "SenderIPv4"
+          },
+          {
+            "Type": "System.String",
+            "Name": "SenderIPv6"
+          },
+          {
+            "Type": "System.String",
+            "Name": "RecipientEmailAddress"
+          },
+          {
+            "Type": "System.String",
+            "Name": "RecipientObjectId"
+          },
+          {
+            "Type": "System.String",
+            "Name": "Subject"
+          },
+          {
+            "Type": "System.Int64",
+            "Name": "EmailClusterId"
+          },
+          {
+            "Type": "System.String",
+            "Name": "EmailDirection"
+          },
+          {
+            "Type": "System.String",
+            "Name": "DeliveryAction"
+          },
+          {
+            "Type": "System.String",
+            "Name": "DeliveryLocation"
+          },
+          {
+            "Type": "System.String",
+            "Name": "ThreatTypes"
+          },
+          {
+            "Type": "System.String",
+            "Name": "ThreatNames"
+          },
+          {
+            "Type": "System.String",
+            "Name": "DetectionMethods"
+          },
+          {
+            "Type": "System.String",
+            "Name": "ConfidenceLevel"
+          },
+          {
+            "Type": "System.String",
+            "Name": "EmailAction"
+          },
+          {
+            "Type": "System.String",
+            "Name": "EmailActionPolicy"
+          },
+          {
+            "Type": "System.String",
+            "Name": "EmailActionPolicyGuid"
+          },
+          {
+            "Type": "System.String",
+            "Name": "AuthenticationDetails"
+          },
+          {
+            "Type": "System.Int32",
+            "Name": "AttachmentCount"
+          },
+          {
+            "Type": "System.Int32",
+            "Name": "UrlCount"
+          },
+          {
+            "Type": "System.String",
+            "Name": "EmailLanguage"
+          },
+          {
+            "Type": "System.String",
+            "Name": "Connectors"
+          },
+          {
+            "Type": "System.String",
+            "Name": "OrgLevelAction"
+          },
+          {
+            "Type": "System.String",
+            "Name": "OrgLevelPolicy"
+          },
+          {
+            "Type": "System.String",
+            "Name": "UserLevelAction"
+          },
+          {
+            "Type": "System.String",
+            "Name": "UserLevelPolicy"
+          },
+          {
+            "Type": "System.String",
+            "Name": "ReportId"
+          },
+          {
+            "Type": "System.String",
+            "Name": "AdditionalFields"
+          },
+          {
+            "Type": "System.String",
+            "Name": "LatestDeliveryLocation"
+          },
+          {
+            "Type": "System.String",
+            "Name": "LatestDeliveryAction"
+          },
+          {
+            "Type": "System.String",
+            "Name": "BulkComplaintLevel"
+          }
+        ],
+        "Table": "EmailEvents"
+      },
+      {
+        "Columns": [
+          {
+            "Type": "System.DateTime",
+            "Name": "Timestamp"
+          },
+          {
+            "Type": "System.String",
+            "Name": "NetworkMessageId"
+          },
+          {
+            "Type": "System.String",
+            "Name": "SenderFromAddress"
+          },
+          {
+            "Type": "System.String",
+            "Name": "SenderDisplayName"
+          },
+          {
+            "Type": "System.String",
+            "Name": "SenderObjectId"
+          },
+          {
+            "Type": "System.String",
+            "Name": "RecipientEmailAddress"
+          },
+          {
+            "Type": "System.String",
+            "Name": "RecipientObjectId"
+          },
+          {
+            "Type": "System.String",
+            "Name": "FileName"
+          },
+          {
+            "Type": "System.String",
+            "Name": "FileType"
+          },
+          {
+            "Type": "System.String",
+            "Name": "SHA256"
+          },
+          {
+            "Type": "System.Int64",
+            "Name": "FileSize"
+          },
+          {
+            "Type": "System.String",
+            "Name": "ThreatTypes"
+          },
+          {
+            "Type": "System.String",
+            "Name": "ThreatNames"
+          },
+          {
+            "Type": "System.String",
+            "Name": "DetectionMethods"
+          },
+          {
+            "Type": "System.String",
+            "Name": "ReportId"
+          }
+        ],
+        "Table": "EmailAttachmentInfo"
+      },
+      {
+        "Columns": [
+          {
+            "Type": "System.DateTime",
+            "Name": "Timestamp"
+          },
+          {
+            "Type": "System.String",
+            "Name": "NetworkMessageId"
+          },
+          {
+            "Type": "System.String",
+            "Name": "Url"
+          },
+          {
+            "Type": "System.String",
+            "Name": "UrlDomain"
+          },
+          {
+            "Type": "System.String",
+            "Name": "UrlLocation"
+          },
+          {
+            "Type": "System.String",
+            "Name": "ReportId"
+          }
+        ],
+        "Table": "EmailUrlInfo"
+      },
+      {
+        "Columns": [
+          {
+            "Type": "System.DateTime",
+            "Name": "Timestamp"
+          },
+          {
+            "Type": "System.String",
+            "Name": "NetworkMessageId"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InternetMessageId"
+          },
+          {
+            "Type": "System.String",
+            "Name": "Action"
+          },
+          {
+            "Type": "System.String",
+            "Name": "ActionType"
+          },
+          {
+            "Type": "System.String",
+            "Name": "ActionTrigger"
+          },
+          {
+            "Type": "System.String",
+            "Name": "ActionResult"
+          },
+          {
+            "Type": "System.String",
+            "Name": "RecipientEmailAddress"
+          },
+          {
+            "Type": "System.String",
+            "Name": "DeliveryLocation"
+          },
+          {
+            "Type": "System.String",
+            "Name": "ThreatTypes"
+          },
+          {
+            "Type": "System.String",
+            "Name": "DetectionMethods"
+          },
+          {
+            "Type": "System.String",
+            "Name": "ReportId"
+          }
+        ],
+        "Table": "EmailPostDeliveryEvents"
+      },
+      {
+        "Columns": [
+          {
+            "Type": "System.DateTime",
+            "Name": "Timestamp"
+          },
+          {
+            "Type": "System.String",
+            "Name": "Url"
+          },
+          {
+            "Type": "System.String",
+            "Name": "ActionType"
+          },
+          {
+            "Type": "System.String",
+            "Name": "AccountUpn"
+          },
+          {
+            "Type": "System.String",
+            "Name": "Workload"
+          },
+          {
+            "Type": "System.String",
+            "Name": "NetworkMessageId"
+          },
+          {
+            "Type": "System.String",
+            "Name": "ThreatTypes"
+          },
+          {
+            "Type": "System.String",
+            "Name": "DetectionMethods"
+          },
+          {
+            "Type": "System.String",
+            "Name": "IPAddress"
+          },
+          {
+            "Type": "Boolean",
+            "Name": "IsClickedThrough"
+          },
+          {
+            "Type": "System.String",
+            "Name": "UrlChain"
+          },
+          {
+            "Type": "System.String",
+            "Name": "ReportId"
+          }
+        ],
+        "Table": "UrlClickEvents"
+      },
+      {
+        "Columns": [
+          {
+            "Type": "System.DateTime",
+            "Name": "Timestamp"
+          },
+          {
+            "Type": "System.String",
+            "Name": "DeviceId"
+          },
+          {
+            "Type": "System.String",
+            "Name": "DeviceName"
+          },
+          {
+            "Type": "System.String",
+            "Name": "ClientVersion"
+          },
+          {
+            "Type": "System.String",
+            "Name": "PublicIP"
+          },
+          {
+            "Type": "System.String",
+            "Name": "OSArchitecture"
+          },
+          {
+            "Type": "System.String",
+            "Name": "OSPlatform"
+          },
+          {
+            "Type": "System.Int64",
+            "Name": "OSBuild"
+          },
+          {
+            "Type": "Boolean",
+            "Name": "IsAzureADJoined"
+          },
+          {
+            "Type": "System.String",
+            "Name": "JoinType"
+          },
+          {
+            "Type": "System.String",
+            "Name": "AadDeviceId"
+          },
+          {
+            "Type": "System.String",
+            "Name": "LoggedOnUsers"
+          },
+          {
+            "Type": "System.String",
+            "Name": "RegistryDeviceTag"
+          },
+          {
+            "Type": "System.String",
+            "Name": "OSVersion"
+          },
+          {
+            "Type": "System.String",
+            "Name": "MachineGroup"
+          },
+          {
+            "Type": "System.Int64",
+            "Name": "ReportId"
+          },
+          {
+            "Type": "System.String",
+            "Name": "OnboardingStatus"
+          },
+          {
+            "Type": "System.String",
+            "Name": "AdditionalFields"
+          },
+          {
+            "Type": "System.String",
+            "Name": "DeviceCategory"
+          },
+          {
+            "Type": "System.String",
+            "Name": "DeviceType"
+          },
+          {
+            "Type": "System.String",
+            "Name": "DeviceSubtype"
+          },
+          {
+            "Type": "System.String",
+            "Name": "Model"
+          },
+          {
+            "Type": "System.String",
+            "Name": "Vendor"
+          },
+          {
+            "Type": "System.String",
+            "Name": "OSDistribution"
+          },
+          {
+            "Type": "System.String",
+            "Name": "OSVersionInfo"
+          },
+          {
+            "Type": "System.String",
+            "Name": "MergedDeviceIds"
+          },
+          {
+            "Type": "System.String",
+            "Name": "MergedToDeviceId"
+          },
+          {
+            "Type": "System.String",
+            "Name": "IsInternetFacing"
+          },
+          {
+            "Type": "System.String",
+            "Name": "SensorHealthState"
+          }
+        ],
+        "Table": "DeviceInfo"
+      },
+      {
+        "Columns": [
+          {
+            "Type": "System.DateTime",
+            "Name": "Timestamp"
+          },
+          {
+            "Type": "System.String",
+            "Name": "DeviceId"
+          },
+          {
+            "Type": "System.String",
+            "Name": "DeviceName"
+          },
+          {
+            "Type": "System.String",
+            "Name": "NetworkAdapterName"
+          },
+          {
+            "Type": "System.String",
+            "Name": "MacAddress"
+          },
+          {
+            "Type": "System.String",
+            "Name": "NetworkAdapterType"
+          },
+          {
+            "Type": "System.String",
+            "Name": "NetworkAdapterStatus"
+          },
+          {
+            "Type": "System.String",
+            "Name": "TunnelType"
+          },
+          {
+            "Type": "System.String",
+            "Name": "ConnectedNetworks"
+          },
+          {
+            "Type": "System.String",
+            "Name": "DnsAddresses"
+          },
+          {
+            "Type": "System.String",
+            "Name": "IPv4Dhcp"
+          },
+          {
+            "Type": "System.String",
+            "Name": "IPv6Dhcp"
+          },
+          {
+            "Type": "System.String",
+            "Name": "DefaultGateways"
+          },
+          {
+            "Type": "System.String",
+            "Name": "IPAddresses"
+          },
+          {
+            "Type": "System.Int64",
+            "Name": "ReportId"
+          },
+          {
+            "Type": "System.String",
+            "Name": "NetworkAdapterVendor"
+          }
+        ],
+        "Table": "DeviceNetworkInfo"
+      },
+      {
+        "Columns": [
+          {
+            "Type": "System.DateTime",
+            "Name": "Timestamp"
+          },
+          {
+            "Type": "System.String",
+            "Name": "DeviceId"
+          },
+          {
+            "Type": "System.String",
+            "Name": "DeviceName"
+          },
+          {
+            "Type": "System.String",
+            "Name": "ActionType"
+          },
+          {
+            "Type": "System.String",
+            "Name": "FileName"
+          },
+          {
+            "Type": "System.String",
+            "Name": "FolderPath"
+          },
+          {
+            "Type": "System.String",
+            "Name": "SHA1"
+          },
+          {
+            "Type": "System.String",
+            "Name": "SHA256"
+          },
+          {
+            "Type": "System.String",
+            "Name": "MD5"
+          },
+          {
+            "Type": "System.Int64",
+            "Name": "FileSize"
+          },
+          {
+            "Type": "System.String",
+            "Name": "ProcessVersionInfoCompanyName"
+          },
+          {
+            "Type": "System.String",
+            "Name": "ProcessVersionInfoProductName"
+          },
+          {
+            "Type": "System.String",
+            "Name": "ProcessVersionInfoProductVersion"
+          },
+          {
+            "Type": "System.String",
+            "Name": "ProcessVersionInfoInternalFileName"
+          },
+          {
+            "Type": "System.String",
+            "Name": "ProcessVersionInfoOriginalFileName"
+          },
+          {
+            "Type": "System.String",
+            "Name": "ProcessVersionInfoFileDescription"
+          },
+          {
+            "Type": "System.Int64",
+            "Name": "ProcessId"
+          },
+          {
+            "Type": "System.String",
+            "Name": "ProcessCommandLine"
+          },
+          {
+            "Type": "System.String",
+            "Name": "ProcessIntegrityLevel"
+          },
+          {
+            "Type": "System.String",
+            "Name": "ProcessTokenElevation"
+          },
+          {
+            "Type": "System.DateTime",
+            "Name": "ProcessCreationTime"
+          },
+          {
+            "Type": "System.String",
+            "Name": "AccountDomain"
+          },
+          {
+            "Type": "System.String",
+            "Name": "AccountName"
+          },
+          {
+            "Type": "System.String",
+            "Name": "AccountSid"
+          },
+          {
+            "Type": "System.String",
+            "Name": "AccountUpn"
+          },
+          {
+            "Type": "System.String",
+            "Name": "AccountObjectId"
+          },
+          {
+            "Type": "System.Int64",
+            "Name": "LogonId"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessAccountDomain"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessAccountName"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessAccountSid"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessAccountUpn"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessAccountObjectId"
+          },
+          {
+            "Type": "System.Int64",
+            "Name": "InitiatingProcessLogonId"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessIntegrityLevel"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessTokenElevation"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessSHA1"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessSHA256"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessMD5"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessFileName"
+          },
+          {
+            "Type": "System.Int64",
+            "Name": "InitiatingProcessFileSize"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessVersionInfoCompanyName"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessVersionInfoProductName"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessVersionInfoProductVersion"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessVersionInfoInternalFileName"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessVersionInfoOriginalFileName"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessVersionInfoFileDescription"
+          },
+          {
+            "Type": "System.Int64",
+            "Name": "InitiatingProcessId"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessCommandLine"
+          },
+          {
+            "Type": "System.DateTime",
+            "Name": "InitiatingProcessCreationTime"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessFolderPath"
+          },
+          {
+            "Type": "System.Int64",
+            "Name": "InitiatingProcessParentId"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessParentFileName"
+          },
+          {
+            "Type": "System.DateTime",
+            "Name": "InitiatingProcessParentCreationTime"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessSignerType"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessSignatureStatus"
+          },
+          {
+            "Type": "System.Int64",
+            "Name": "ReportId"
+          },
+          {
+            "Type": "System.String",
+            "Name": "AppGuardContainerId"
+          },
+          {
+            "Type": "System.String",
+            "Name": "AdditionalFields"
+          }
+        ],
+        "Table": "DeviceProcessEvents"
+      },
+      {
+        "Columns": [
+          {
+            "Type": "System.DateTime",
+            "Name": "Timestamp"
+          },
+          {
+            "Type": "System.String",
+            "Name": "DeviceId"
+          },
+          {
+            "Type": "System.String",
+            "Name": "DeviceName"
+          },
+          {
+            "Type": "System.String",
+            "Name": "ActionType"
+          },
+          {
+            "Type": "System.String",
+            "Name": "RemoteIP"
+          },
+          {
+            "Type": "System.Int32",
+            "Name": "RemotePort"
+          },
+          {
+            "Type": "System.String",
+            "Name": "RemoteUrl"
+          },
+          {
+            "Type": "System.String",
+            "Name": "LocalIP"
+          },
+          {
+            "Type": "System.Int32",
+            "Name": "LocalPort"
+          },
+          {
+            "Type": "System.String",
+            "Name": "Protocol"
+          },
+          {
+            "Type": "System.String",
+            "Name": "LocalIPType"
+          },
+          {
+            "Type": "System.String",
+            "Name": "RemoteIPType"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessSHA1"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessSHA256"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessMD5"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessFileName"
+          },
+          {
+            "Type": "System.Int64",
+            "Name": "InitiatingProcessFileSize"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessVersionInfoCompanyName"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessVersionInfoProductName"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessVersionInfoProductVersion"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessVersionInfoInternalFileName"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessVersionInfoOriginalFileName"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessVersionInfoFileDescription"
+          },
+          {
+            "Type": "System.Int64",
+            "Name": "InitiatingProcessId"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessCommandLine"
+          },
+          {
+            "Type": "System.DateTime",
+            "Name": "InitiatingProcessCreationTime"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessFolderPath"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessParentFileName"
+          },
+          {
+            "Type": "System.Int64",
+            "Name": "InitiatingProcessParentId"
+          },
+          {
+            "Type": "System.DateTime",
+            "Name": "InitiatingProcessParentCreationTime"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessAccountDomain"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessAccountName"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessAccountSid"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessAccountUpn"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessAccountObjectId"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessIntegrityLevel"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessTokenElevation"
+          },
+          {
+            "Type": "System.Int64",
+            "Name": "ReportId"
+          },
+          {
+            "Type": "System.String",
+            "Name": "AppGuardContainerId"
+          },
+          {
+            "Type": "System.String",
+            "Name": "AdditionalFields"
+          }
+        ],
+        "Table": "DeviceNetworkEvents"
+      },
+      {
+        "Columns": [
+          {
+            "Type": "System.DateTime",
+            "Name": "Timestamp"
+          },
+          {
+            "Type": "System.String",
+            "Name": "DeviceId"
+          },
+          {
+            "Type": "System.String",
+            "Name": "DeviceName"
+          },
+          {
+            "Type": "System.String",
+            "Name": "ActionType"
+          },
+          {
+            "Type": "System.String",
+            "Name": "FileName"
+          },
+          {
+            "Type": "System.String",
+            "Name": "FolderPath"
+          },
+          {
+            "Type": "System.String",
+            "Name": "SHA1"
+          },
+          {
+            "Type": "System.String",
+            "Name": "SHA256"
+          },
+          {
+            "Type": "System.String",
+            "Name": "MD5"
+          },
+          {
+            "Type": "System.String",
+            "Name": "FileOriginUrl"
+          },
+          {
+            "Type": "System.String",
+            "Name": "FileOriginReferrerUrl"
+          },
+          {
+            "Type": "System.String",
+            "Name": "FileOriginIP"
+          },
+          {
+            "Type": "System.String",
+            "Name": "PreviousFolderPath"
+          },
+          {
+            "Type": "System.String",
+            "Name": "PreviousFileName"
+          },
+          {
+            "Type": "System.Int64",
+            "Name": "FileSize"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessAccountDomain"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessAccountName"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessAccountSid"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessAccountUpn"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessAccountObjectId"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessMD5"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessSHA1"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessSHA256"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessFolderPath"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessFileName"
+          },
+          {
+            "Type": "System.Int64",
+            "Name": "InitiatingProcessFileSize"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessVersionInfoCompanyName"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessVersionInfoProductName"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessVersionInfoProductVersion"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessVersionInfoInternalFileName"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessVersionInfoOriginalFileName"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessVersionInfoFileDescription"
+          },
+          {
+            "Type": "System.Int64",
+            "Name": "InitiatingProcessId"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessCommandLine"
+          },
+          {
+            "Type": "System.DateTime",
+            "Name": "InitiatingProcessCreationTime"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessIntegrityLevel"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessTokenElevation"
+          },
+          {
+            "Type": "System.Int64",
+            "Name": "InitiatingProcessParentId"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessParentFileName"
+          },
+          {
+            "Type": "System.DateTime",
+            "Name": "InitiatingProcessParentCreationTime"
+          },
+          {
+            "Type": "System.String",
+            "Name": "RequestProtocol"
+          },
+          {
+            "Type": "System.String",
+            "Name": "RequestSourceIP"
+          },
+          {
+            "Type": "System.Int32",
+            "Name": "RequestSourcePort"
+          },
+          {
+            "Type": "System.String",
+            "Name": "RequestAccountName"
+          },
+          {
+            "Type": "System.String",
+            "Name": "RequestAccountDomain"
+          },
+          {
+            "Type": "System.String",
+            "Name": "RequestAccountSid"
+          },
+          {
+            "Type": "System.String",
+            "Name": "ShareName"
+          },
+          {
+            "Type": "System.String",
+            "Name": "SensitivityLabel"
+          },
+          {
+            "Type": "System.String",
+            "Name": "SensitivitySubLabel"
+          },
+          {
+            "Type": "Boolean",
+            "Name": "IsAzureInfoProtectionApplied"
+          },
+          {
+            "Type": "System.Int64",
+            "Name": "ReportId"
+          },
+          {
+            "Type": "System.String",
+            "Name": "AppGuardContainerId"
+          },
+          {
+            "Type": "System.String",
+            "Name": "AdditionalFields"
+          }
+        ],
+        "Table": "DeviceFileEvents"
+      },
+      {
+        "Columns": [
+          {
+            "Type": "System.DateTime",
+            "Name": "Timestamp"
+          },
+          {
+            "Type": "System.String",
+            "Name": "DeviceId"
+          },
+          {
+            "Type": "System.String",
+            "Name": "DeviceName"
+          },
+          {
+            "Type": "System.String",
+            "Name": "ActionType"
+          },
+          {
+            "Type": "System.String",
+            "Name": "RegistryKey"
+          },
+          {
+            "Type": "System.String",
+            "Name": "RegistryValueType"
+          },
+          {
+            "Type": "System.String",
+            "Name": "RegistryValueName"
+          },
+          {
+            "Type": "System.String",
+            "Name": "RegistryValueData"
+          },
+          {
+            "Type": "System.String",
+            "Name": "PreviousRegistryKey"
+          },
+          {
+            "Type": "System.String",
+            "Name": "PreviousRegistryValueName"
+          },
+          {
+            "Type": "System.String",
+            "Name": "PreviousRegistryValueData"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessAccountDomain"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessAccountName"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessAccountSid"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessAccountUpn"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessAccountObjectId"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessSHA1"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessSHA256"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessMD5"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessFileName"
+          },
+          {
+            "Type": "System.Int64",
+            "Name": "InitiatingProcessFileSize"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessVersionInfoCompanyName"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessVersionInfoProductName"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessVersionInfoProductVersion"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessVersionInfoInternalFileName"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessVersionInfoOriginalFileName"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessVersionInfoFileDescription"
+          },
+          {
+            "Type": "System.Int64",
+            "Name": "InitiatingProcessId"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessCommandLine"
+          },
+          {
+            "Type": "System.DateTime",
+            "Name": "InitiatingProcessCreationTime"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessFolderPath"
+          },
+          {
+            "Type": "System.Int64",
+            "Name": "InitiatingProcessParentId"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessParentFileName"
+          },
+          {
+            "Type": "System.DateTime",
+            "Name": "InitiatingProcessParentCreationTime"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessIntegrityLevel"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessTokenElevation"
+          },
+          {
+            "Type": "System.Int64",
+            "Name": "ReportId"
+          },
+          {
+            "Type": "System.String",
+            "Name": "AppGuardContainerId"
+          }
+        ],
+        "Table": "DeviceRegistryEvents"
+      },
+      {
+        "Columns": [
+          {
+            "Type": "System.DateTime",
+            "Name": "Timestamp"
+          },
+          {
+            "Type": "System.String",
+            "Name": "DeviceId"
+          },
+          {
+            "Type": "System.String",
+            "Name": "DeviceName"
+          },
+          {
+            "Type": "System.String",
+            "Name": "ActionType"
+          },
+          {
+            "Type": "System.String",
+            "Name": "LogonType"
+          },
+          {
+            "Type": "System.String",
+            "Name": "AccountDomain"
+          },
+          {
+            "Type": "System.String",
+            "Name": "AccountName"
+          },
+          {
+            "Type": "System.String",
+            "Name": "AccountSid"
+          },
+          {
+            "Type": "System.String",
+            "Name": "Protocol"
+          },
+          {
+            "Type": "System.String",
+            "Name": "FailureReason"
+          },
+          {
+            "Type": "Boolean",
+            "Name": "IsLocalAdmin"
+          },
+          {
+            "Type": "System.Int64",
+            "Name": "LogonId"
+          },
+          {
+            "Type": "System.String",
+            "Name": "RemoteDeviceName"
+          },
+          {
+            "Type": "System.String",
+            "Name": "RemoteIP"
+          },
+          {
+            "Type": "System.String",
+            "Name": "RemoteIPType"
+          },
+          {
+            "Type": "System.Int32",
+            "Name": "RemotePort"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessAccountDomain"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessAccountName"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessAccountSid"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessAccountUpn"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessAccountObjectId"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessIntegrityLevel"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessTokenElevation"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessSHA1"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessSHA256"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessMD5"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessFileName"
+          },
+          {
+            "Type": "System.Int64",
+            "Name": "InitiatingProcessFileSize"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessVersionInfoCompanyName"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessVersionInfoProductName"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessVersionInfoProductVersion"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessVersionInfoInternalFileName"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessVersionInfoOriginalFileName"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessVersionInfoFileDescription"
+          },
+          {
+            "Type": "System.Int64",
+            "Name": "InitiatingProcessId"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessCommandLine"
+          },
+          {
+            "Type": "System.DateTime",
+            "Name": "InitiatingProcessCreationTime"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessFolderPath"
+          },
+          {
+            "Type": "System.Int64",
+            "Name": "InitiatingProcessParentId"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessParentFileName"
+          },
+          {
+            "Type": "System.DateTime",
+            "Name": "InitiatingProcessParentCreationTime"
+          },
+          {
+            "Type": "System.Int64",
+            "Name": "ReportId"
+          },
+          {
+            "Type": "System.String",
+            "Name": "AppGuardContainerId"
+          },
+          {
+            "Type": "System.String",
+            "Name": "AdditionalFields"
+          }
+        ],
+        "Table": "DeviceLogonEvents"
+      },
+      {
+        "Columns": [
+          {
+            "Type": "System.DateTime",
+            "Name": "Timestamp"
+          },
+          {
+            "Type": "System.String",
+            "Name": "DeviceId"
+          },
+          {
+            "Type": "System.String",
+            "Name": "DeviceName"
+          },
+          {
+            "Type": "System.String",
+            "Name": "ActionType"
+          },
+          {
+            "Type": "System.String",
+            "Name": "FileName"
+          },
+          {
+            "Type": "System.String",
+            "Name": "FolderPath"
+          },
+          {
+            "Type": "System.String",
+            "Name": "SHA1"
+          },
+          {
+            "Type": "System.String",
+            "Name": "SHA256"
+          },
+          {
+            "Type": "System.String",
+            "Name": "MD5"
+          },
+          {
+            "Type": "System.Int64",
+            "Name": "FileSize"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessAccountDomain"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessAccountName"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessAccountSid"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessAccountUpn"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessAccountObjectId"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessIntegrityLevel"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessTokenElevation"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessSHA1"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessSHA256"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessMD5"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessFileName"
+          },
+          {
+            "Type": "System.Int64",
+            "Name": "InitiatingProcessFileSize"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessVersionInfoCompanyName"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessVersionInfoProductName"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessVersionInfoProductVersion"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessVersionInfoInternalFileName"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessVersionInfoOriginalFileName"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessVersionInfoFileDescription"
+          },
+          {
+            "Type": "System.Int64",
+            "Name": "InitiatingProcessId"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessCommandLine"
+          },
+          {
+            "Type": "System.DateTime",
+            "Name": "InitiatingProcessCreationTime"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessFolderPath"
+          },
+          {
+            "Type": "System.Int64",
+            "Name": "InitiatingProcessParentId"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessParentFileName"
+          },
+          {
+            "Type": "System.DateTime",
+            "Name": "InitiatingProcessParentCreationTime"
+          },
+          {
+            "Type": "System.Int64",
+            "Name": "ReportId"
+          },
+          {
+            "Type": "System.String",
+            "Name": "AppGuardContainerId"
+          }
+        ],
+        "Table": "DeviceImageLoadEvents"
+      },
+      {
+        "Columns": [
+          {
+            "Type": "System.DateTime",
+            "Name": "Timestamp"
+          },
+          {
+            "Type": "System.String",
+            "Name": "DeviceId"
+          },
+          {
+            "Type": "System.String",
+            "Name": "DeviceName"
+          },
+          {
+            "Type": "System.String",
+            "Name": "ActionType"
+          },
+          {
+            "Type": "System.String",
+            "Name": "FileName"
+          },
+          {
+            "Type": "System.String",
+            "Name": "FolderPath"
+          },
+          {
+            "Type": "System.String",
+            "Name": "SHA1"
+          },
+          {
+            "Type": "System.String",
+            "Name": "SHA256"
+          },
+          {
+            "Type": "System.String",
+            "Name": "MD5"
+          },
+          {
+            "Type": "System.Int64",
+            "Name": "FileSize"
+          },
+          {
+            "Type": "System.String",
+            "Name": "AccountDomain"
+          },
+          {
+            "Type": "System.String",
+            "Name": "AccountName"
+          },
+          {
+            "Type": "System.String",
+            "Name": "AccountSid"
+          },
+          {
+            "Type": "System.String",
+            "Name": "RemoteUrl"
+          },
+          {
+            "Type": "System.String",
+            "Name": "RemoteDeviceName"
+          },
+          {
+            "Type": "System.Int64",
+            "Name": "ProcessId"
+          },
+          {
+            "Type": "System.String",
+            "Name": "ProcessCommandLine"
+          },
+          {
+            "Type": "System.DateTime",
+            "Name": "ProcessCreationTime"
+          },
+          {
+            "Type": "System.String",
+            "Name": "ProcessTokenElevation"
+          },
+          {
+            "Type": "System.Int64",
+            "Name": "LogonId"
+          },
+          {
+            "Type": "System.String",
+            "Name": "RegistryKey"
+          },
+          {
+            "Type": "System.String",
+            "Name": "RegistryValueName"
+          },
+          {
+            "Type": "System.String",
+            "Name": "RegistryValueData"
+          },
+          {
+            "Type": "System.String",
+            "Name": "RemoteIP"
+          },
+          {
+            "Type": "System.Int32",
+            "Name": "RemotePort"
+          },
+          {
+            "Type": "System.String",
+            "Name": "LocalIP"
+          },
+          {
+            "Type": "System.Int32",
+            "Name": "LocalPort"
+          },
+          {
+            "Type": "System.String",
+            "Name": "FileOriginUrl"
+          },
+          {
+            "Type": "System.String",
+            "Name": "FileOriginIP"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessSHA1"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessSHA256"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessMD5"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessFileName"
+          },
+          {
+            "Type": "System.Int64",
+            "Name": "InitiatingProcessFileSize"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessFolderPath"
+          },
+          {
+            "Type": "System.Int64",
+            "Name": "InitiatingProcessId"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessCommandLine"
+          },
+          {
+            "Type": "System.DateTime",
+            "Name": "InitiatingProcessCreationTime"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessAccountDomain"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessAccountName"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessAccountSid"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessAccountUpn"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessAccountObjectId"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessVersionInfoCompanyName"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessVersionInfoProductName"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessVersionInfoProductVersion"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessVersionInfoInternalFileName"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessVersionInfoOriginalFileName"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessVersionInfoFileDescription"
+          },
+          {
+            "Type": "System.Int64",
+            "Name": "InitiatingProcessParentId"
+          },
+          {
+            "Type": "System.String",
+            "Name": "InitiatingProcessParentFileName"
+          },
+          {
+            "Type": "System.DateTime",
+            "Name": "InitiatingProcessParentCreationTime"
+          },
+          {
+            "Type": "System.Int64",
+            "Name": "InitiatingProcessLogonId"
+          },
+          {
+            "Type": "System.Int64",
+            "Name": "ReportId"
+          },
+          {
+            "Type": "System.String",
+            "Name": "AppGuardContainerId"
+          },
+          {
+            "Type": "System.String",
+            "Name": "AdditionalFields"
+          }
+        ],
+        "Table": "DeviceEvents"
+      },
+      {
+        "Columns": [
+          {
+            "Type": "System.DateTime",
+            "Name": "Timestamp"
+          },
+          {
+            "Type": "System.String",
+            "Name": "DeviceId"
+          },
+          {
+            "Type": "System.String",
+            "Name": "DeviceName"
+          },
+          {
+            "Type": "System.String",
+            "Name": "SHA1"
+          },
+          {
+            "Type": "Boolean",
+            "Name": "IsSigned"
+          },
+          {
+            "Type": "System.String",
+            "Name": "SignatureType"
+          },
+          {
+            "Type": "System.String",
+            "Name": "Signer"
+          },
+          {
+            "Type": "System.String",
+            "Name": "SignerHash"
+          },
+          {
+            "Type": "System.String",
+            "Name": "Issuer"
+          },
+          {
+            "Type": "System.String",
+            "Name": "IssuerHash"
+          },
+          {
+            "Type": "System.String",
+            "Name": "CertificateSerialNumber"
+          },
+          {
+            "Type": "System.String",
+            "Name": "CrlDistributionPointUrls"
+          },
+          {
+            "Type": "System.DateTime",
+            "Name": "CertificateCreationTime"
+          },
+          {
+            "Type": "System.DateTime",
+            "Name": "CertificateExpirationTime"
+          },
+          {
+            "Type": "System.DateTime",
+            "Name": "CertificateCountersignatureTime"
+          },
+          {
+            "Type": "Boolean",
+            "Name": "IsTrusted"
+          },
+          {
+            "Type": "Boolean",
+            "Name": "IsRootSignerMicrosoft"
+          },
+          {
+            "Type": "System.Int64",
+            "Name": "ReportId"
+          }
+        ],
+        "Table": "DeviceFileCertificateInfo"
+      },
+      {
+        "Columns": [
+          {
+            "Type": "System.String",
+            "Name": "DeviceId"
+          },
+          {
+            "Type": "System.String",
+            "Name": "DeviceName"
+          },
+          {
+            "Type": "System.String",
+            "Name": "OSPlatform"
+          },
+          {
+            "Type": "System.String",
+            "Name": "OSVersion"
+          },
+          {
+            "Type": "System.String",
+            "Name": "OSArchitecture"
+          },
+          {
+            "Type": "System.String",
+            "Name": "SoftwareVendor"
+          },
+          {
+            "Type": "System.String",
+            "Name": "SoftwareName"
+          },
+          {
+            "Type": "System.String",
+            "Name": "SoftwareVersion"
+          },
+          {
+            "Type": "System.String",
+            "Name": "CveId"
+          },
+          {
+            "Type": "System.String",
+            "Name": "VulnerabilitySeverityLevel"
+          },
+          {
+            "Type": "System.String",
+            "Name": "RecommendedSecurityUpdate"
+          },
+          {
+            "Type": "System.String",
+            "Name": "RecommendedSecurityUpdateId"
+          },
+          {
+            "Type": "System.Object",
+            "Name": "CveTags"
+          }
+        ],
+        "Table": "DeviceTvmSoftwareVulnerabilities"
+      },
+      {
+        "Columns": [
+          {
+            "Type": "System.String",
+            "Name": "CveId"
+          },
+          {
+            "Type": "Double",
+            "Name": "CvssScore"
+          },
+          {
+            "Type": "System.String",
+            "Name": "IsExploitAvailable"
+          },
+          {
+            "Type": "System.String",
+            "Name": "VulnerabilitySeverityLevel"
+          },
+          {
+            "Type": "System.DateTime",
+            "Name": "LastModifiedTime"
+          },
+          {
+            "Type": "System.DateTime",
+            "Name": "PublishedDate"
+          },
+          {
+            "Type": "System.String",
+            "Name": "VulnerabilityDescription"
+          },
+          {
+            "Type": "System.String",
+            "Name": "AffectedSoftware"
+          }
+        ],
+        "Table": "DeviceTvmSoftwareVulnerabilitiesKB"
+      },
+      {
+        "Columns": [
+          {
+            "Type": "System.String",
+            "Name": "DeviceId"
+          },
+          {
+            "Type": "System.String",
+            "Name": "DeviceName"
+          },
+          {
+            "Type": "System.String",
+            "Name": "OSPlatform"
+          },
+          {
+            "Type": "System.DateTime",
+            "Name": "Timestamp"
+          },
+          {
+            "Type": "System.String",
+            "Name": "ConfigurationId"
+          },
+          {
+            "Type": "System.String",
+            "Name": "ConfigurationCategory"
+          },
+          {
+            "Type": "System.String",
+            "Name": "ConfigurationSubcategory"
+          },
+          {
+            "Type": "Double",
+            "Name": "ConfigurationImpact"
+          },
+          {
+            "Type": "Boolean",
+            "Name": "IsCompliant"
+          },
+          {
+            "Type": "Boolean",
+            "Name": "IsApplicable"
+          },
+          {
+            "Type": "System.Object",
+            "Name": "Context"
+          },
+          {
+            "Type": "Boolean",
+            "Name": "IsExpectedUserImpact"
+          }
+        ],
+        "Table": "DeviceTvmSecureConfigurationAssessment"
+      },
+      {
+        "Columns": [
+          {
+            "Type": "System.String",
+            "Name": "DeviceId"
+          },
+          {
+            "Type": "System.String",
+            "Name": "DeviceName"
+          },
+          {
+            "Type": "System.String",
+            "Name": "OSPlatform"
+          },
+          {
+            "Type": "System.String",
+            "Name": "OSVersion"
+          },
+          {
+            "Type": "System.String",
+            "Name": "OSArchitecture"
+          },
+          {
+            "Type": "System.String",
+            "Name": "SoftwareVendor"
+          },
+          {
+            "Type": "System.String",
+            "Name": "SoftwareName"
+          },
+          {
+            "Type": "System.String",
+            "Name": "SoftwareVersion"
+          },
+          {
+            "Type": "System.String",
+            "Name": "EndOfSupportStatus"
+          },
+          {
+            "Type": "System.DateTime",
+            "Name": "EndOfSupportDate"
+          },
+          {
+            "Type": "System.String",
+            "Name": "ProductCodeCpe"
+          }
+        ],
+        "Table": "DeviceTvmSoftwareInventory"
+      },
+      {
+        "Columns": [
+          {
+            "Type": "System.String",
+            "Name": "DeviceId"
+          },
+          {
+            "Type": "System.String",
+            "Name": "DeviceName"
+          },
+          {
+            "Type": "System.String",
+            "Name": "ComponentType"
+          },
+          {
+            "Type": "System.String",
+            "Name": "Manufacturer"
+          },
+          {
+            "Type": "System.String",
+            "Name": "ComponentName"
+          },
+          {
+            "Type": "System.String",
+            "Name": "ComponentFamily"
+          },
+          {
+            "Type": "System.String",
+            "Name": "ComponentVersion"
+          },
+          {
+            "Type": "System.String",
+            "Name": "AdditionalFields"
+          }
+        ],
+        "Table": "DeviceTvmHardwareFirmware"
+      },
+      {
+        "Columns": [
+          {
+            "Type": "System.DateTime",
+            "Name": "Timestamp"
+          },
+          {
+            "Type": "System.String",
+            "Name": "Application"
+          },
+          {
+            "Type": "System.String",
+            "Name": "ApplicationId"
+          },
+          {
+            "Type": "Boolean",
+            "Name": "IsManagedIdentity"
+          },
+          {
+            "Type": "System.Int32",
+            "Name": "ErrorCode"
+          },
+          {
+            "Type": "System.String",
+            "Name": "CorrelationId"
+          },
+          {
+            "Type": "System.String",
+            "Name": "ServicePrincipalName"
+          },
+          {
+            "Type": "System.String",
+            "Name": "ServicePrincipalId"
+          },
+          {
+            "Type": "System.String",
+            "Name": "ResourceDisplayName"
+          },
+          {
+            "Type": "System.String",
+            "Name": "ResourceId"
+          },
+          {
+            "Type": "System.String",
+            "Name": "ResourceTenantId"
+          },
+          {
+            "Type": "System.String",
+            "Name": "IPAddress"
+          },
+          {
+            "Type": "System.String",
+            "Name": "Country"
+          },
+          {
+            "Type": "System.String",
+            "Name": "State"
+          },
+          {
+            "Type": "System.String",
+            "Name": "City"
+          },
+          {
+            "Type": "System.String",
+            "Name": "Latitude"
+          },
+          {
+            "Type": "System.String",
+            "Name": "Longitude"
+          },
+          {
+            "Type": "System.String",
+            "Name": "RequestId"
+          },
+          {
+            "Type": "System.String",
+            "Name": "ReportId"
+          }
+        ],
+        "Table": "AADSpnSignInEventsBeta"
+      },
+      {
+        "Columns": [
+          {
+            "Type": "System.DateTime",
+            "Name": "Timestamp"
+          },
+          {
+            "Type": "System.String",
+            "Name": "Application"
+          },
+          {
+            "Type": "System.String",
+            "Name": "ApplicationId"
+          },
+          {
+            "Type": "System.String",
+            "Name": "LogonType"
+          },
+          {
+            "Type": "System.String",
+            "Name": "EndpointCall"
+          },
+          {
+            "Type": "System.Int32",
+            "Name": "ErrorCode"
+          },
+          {
+            "Type": "System.String",
+            "Name": "CorrelationId"
+          },
+          {
+            "Type": "System.String",
+            "Name": "SessionId"
+          },
+          {
+            "Type": "System.String",
+            "Name": "AccountDisplayName"
+          },
+          {
+            "Type": "System.String",
+            "Name": "AccountObjectId"
+          },
+          {
+            "Type": "System.String",
+            "Name": "AccountUpn"
+          },
+          {
+            "Type": "System.Int32",
+            "Name": "IsExternalUser"
+          },
+          {
+            "Type": "System.String",
+            "Name": "IsGuestUser"
+          },
+          {
+            "Type": "System.String",
+            "Name": "AlternateSignInName"
+          },
+          {
+            "Type": "System.String",
+            "Name": "LastPasswordChangeTimestamp"
+          },
+          {
+            "Type": "System.String",
+            "Name": "ResourceDisplayName"
+          },
+          {
+            "Type": "System.String",
+            "Name": "ResourceId"
+          },
+          {
+            "Type": "System.String",
+            "Name": "ResourceTenantId"
+          },
+          {
+            "Type": "System.String",
+            "Name": "DeviceName"
+          },
+          {
+            "Type": "System.String",
+            "Name": "AadDeviceId"
+          },
+          {
+            "Type": "System.String",
+            "Name": "OSPlatform"
+          },
+          {
+            "Type": "System.String",
+            "Name": "DeviceTrustType"
+          },
+          {
+            "Type": "Boolean",
+            "Name": "IsManaged"
+          },
+          {
+            "Type": "Boolean",
+            "Name": "IsCompliant"
+          },
+          {
+            "Type": "System.String",
+            "Name": "AuthenticationProcessingDetails"
+          },
+          {
+            "Type": "System.String",
+            "Name": "AuthenticationRequirement"
+          },
+          {
+            "Type": "System.String",
+            "Name": "TokenIssuerType"
+          },
+          {
+            "Type": "System.Int32",
+            "Name": "RiskLevelAggregated"
+          },
+          {
+            "Type": "System.Int32",
+            "Name": "RiskLevelDuringSignIn"
+          },
+          {
+            "Type": "System.String",
+            "Name": "RiskEventTypes"
+          },
+          {
+            "Type": "System.String",
+            "Name": "RiskState"
+          },
+          {
+            "Type": "System.String",
+            "Name": "UserAgent"
+          },
+          {
+            "Type": "System.String",
+            "Name": "ClientAppUsed"
+          },
+          {
+            "Type": "System.String",
+            "Name": "Browser"
+          },
+          {
+            "Type": "System.String",
+            "Name": "ConditionalAccessPolicies"
+          },
+          {
+            "Type": "System.Int32",
+            "Name": "ConditionalAccessStatus"
+          },
+          {
+            "Type": "System.String",
+            "Name": "IPAddress"
+          },
+          {
+            "Type": "System.String",
+            "Name": "Country"
+          },
+          {
+            "Type": "System.String",
+            "Name": "State"
+          },
+          {
+            "Type": "System.String",
+            "Name": "City"
+          },
+          {
+            "Type": "System.String",
+            "Name": "Latitude"
+          },
+          {
+            "Type": "System.String",
+            "Name": "Longitude"
+          },
+          {
+            "Type": "System.String",
+            "Name": "NetworkLocationDetails"
+          },
+          {
+            "Type": "System.String",
+            "Name": "RequestId"
+          },
+          {
+            "Type": "System.String",
+            "Name": "ReportId"
+          }
+        ],
+        "Table": "AADSignInEventsBeta"
+      }
+    ],
+    "Functions": []
+  }
+]
