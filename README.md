@@ -1,14 +1,33 @@
-# Project
+# NL2KQL: From Natural Language to Kusto Query
 
-> This repo has been populated by an initial template to help get you started. Please
-> make sure to update the content to build a great experience for community-building.
+The repository of paper ["NL2KQL: From Natural Language to Kusto Query"](https://arxiv.org/pdf/2404.02933).
 
-As the maintainer of this project, please make a few updates:
+If you use the NL2KQL code, data, or results, please cite the following reference:
 
-- Improving this README.MD file to provide a great experience
-- Updating SUPPORT.MD with content about this project's support experience
-- Understanding the security reporting process in SECURITY.MD
-- Remove this section from the README
+```bibtex
+@article{tang2025nl2kqlnaturallanguagekusto,
+  title={NL2KQL: From Natural Language to Kusto Query},
+  author={Xinye Tang and Amir H. Abdi and Jeremias Eichelbaum and Mahan Das and Alex Klein and Nihal Irmak Pakis and William Blum and Daniel L Mace and Tanvi Raja and Namrata Padmanabhan and Ye Xing},
+  journal={arXiv preprint arXiv:2404.02933},
+  year={2025}
+}
+```
+
+## NL2KQL
+<img src="./images/NL2KQL.png">
+
+## Datasets
+
+1. **Schema**
+The schema is provided as a JSON file that defines the structure of the Kusto database. 
+2. **Semantic Data Catalog**
+The semantic data catalog is provided as a YAML file, enriched with annotations to facilitate natural language understanding.
+3. **Evaluation Datasets**
+The evaluation datasets contain NLQ-KQL pairs that were drafted by domain experts for two distinct Kusto databases, each with unique schemas:
+- **Sentinel**: [microsoft-sentinel](https://azure.microsoft.com/en-us/products/microsoft-sentinel)
+- **Defender**: [microsoft-defender](https://www.microsoft.com/en-us/security/business/microsoft-defender)
+
+
 
 ## Contributing
 
